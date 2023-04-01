@@ -139,16 +139,7 @@ Mentally and Physically Safe
 
 A number of topics discussed could potentially trigger traumatic memories or induce unwanted or unsafe feelings in our speakers and viewers. A great example of seeing trigger warnings and safe spaces was our OSINT talk presenter, who included dedicated slides indicating where the triggers were, and when the material had ended. @goatindex has also provided the following link, for more information
 
-[
-
-An Introduction to Content Warnings and Trigger Warnings
---------------------------------------------------------
-
-### Home< Cultivating Inclusivity< The following content and linked resources are a primer to understanding content…
-
-sites.lsa.umich.edu
-
-](https://sites.lsa.umich.edu/inclusive-teaching/2017/12/12/an-introduction-to-content-warnings-and-trigger-warnings/)
+[An Introduction to Content Warnings and Trigger Warnings](https://sites.lsa.umich.edu/inclusive-teaching/2017/12/12/an-introduction-to-content-warnings-and-trigger-warnings/)
 
 We plan on asking all speakers next time to identify triggers in their content, so we can put appropriate safe guards in place.
 
