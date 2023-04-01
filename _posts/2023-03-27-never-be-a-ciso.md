@@ -1,7 +1,8 @@
+---
 layout: post
-title: "This is my new blog!"
+title: "Being a CISO is not for me"
 date: 2023-03-27 12:00:00 -1000
-
+---
 
 I never want to be a CISO.
 

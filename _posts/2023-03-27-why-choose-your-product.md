@@ -1,7 +1,8 @@
+---
 layout: post
-title: "This is my new blog!"
+title: "Why should I choose your product?"
 date: 2023-03-27 12:00:00 -1000
-
+---
 
 I get a lot of vendors asking me to look at their products, and ultimately I'm going to respond with three specific questions to determine if I'm going to investigate your product further:
 

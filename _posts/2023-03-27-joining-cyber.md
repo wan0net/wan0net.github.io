@@ -1,7 +1,8 @@
+---
 layout: post
-title: "This is my new blog!"
+title: "Why we should stop talking and start acting."
 date: 2023-03-27 12:00:00 -1000
-
+---
 
 Stop setting up panels or discussions where we say that we need education to bring people into Cyber. I think that's been pretty bleeding obvious since I got into Cyber... and that was 10 years ago.
 

@@ -1,7 +1,8 @@
+---
 layout: post
-title: "This is my new blog!"
+title: "Tailoring your Security Solutions to the customer"
 date: 2023-03-27 12:00:00 -1000
-
+---
 
 When giving cyber security advice, or delivering cyber security solutions, the key is to tailor.
 

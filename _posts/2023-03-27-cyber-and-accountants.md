@@ -1,6 +1,8 @@
+---
 layout: post
 title: "What do cyber professionals, lawyers and accountants all have in common for small business?"
 date: 2023-03-27 12:00:00 -1000
+---
 
 #From small things...
 So you've started your new startup or small business. Congrats! You are going to revolutionise the world with your widget (side note, did you know a widget is an actual thing?). Or you're going to deliver a critical service to your customers. Or, you're just sick of working for "the man" and wanted to go your own way.

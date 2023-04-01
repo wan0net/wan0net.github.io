@@ -1,7 +1,8 @@
+---
 layout: post
 title: "This is my new blog!"
 date: 2023-03-27 12:00:00 -1000
-
+---
 
 Okay. My first (serious) talk idea. Would you attend?
 
