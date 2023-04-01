@@ -1,7 +1,9 @@
 ---
 layout: post
-title: "Thoughts on ComfyCon AU 2020"
+title: Thoughts on ComfyCon AU 2020
 date: 2020-04-12 12:00:00 -1000
+preview: /img/1_H5jna_2BAOG6NPXH6es9Fg.webp
+draft: false
 ---
 
 Thoughts on ComfyCon AU 2020
@@ -18,7 +20,7 @@ He was supposed to go to Brisbane 2 days later to present at a conference, but t
 
 So this tweet happened:
 
-I’ve since been told I’m not allowed to post bright ideas on Twitter anymore.
+![I’ve since been told I’m not allowed to post bright ideas on Twitter anymore.](/img/2020-04-12-thoughts-on-comfycon-2.png)
 
 And that started it all.
 
