@@ -20,6 +20,24 @@ layout: default
 
             {% include social_links.html %}
           </div>
+		  <div class="col-md-12 main content-panel">
+
+            <div class="articles">
+
+              <h2>Pages</h2>
+
+              <ul>
+                  {% for page in site.pages %}
+
+                      <li>
+                          <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                      </li>
+
+                  {% endfor %}
+              </ul>
+
+            </div>
+		  </div>
           <div class="col-md-12 main content-panel">
 
             <div class="articles">
