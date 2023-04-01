@@ -5,9 +5,20 @@ layout: default
 
 <div class="container-fluid index">
   <div class="row index all-posts">
+        <div class="col-md-12 main content-panel">
 
-    <h1 class="header author-header">{{ site.author_name }}</h1>
-    <h2 class="header" itemprop="headline">All posts</h2>
+            <div class="gravatar">
+                <img src="{{ site.title_image }}" class="img-circle about-image" height="150" width="150" alt="{{ site.title }}" />
+            </div>
+
+            <h1 class="header author-header" itemprop="headline">{{ site.title }}</h1>
+
+            <div class="author-text">
+                {{ site.title_description }}
+            </div>
+
+            {% include social_links.html %}
+          </div>
 
       {% for post in site.posts %}
       {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
@@ -37,5 +48,4 @@ layout: default
 
     {% endfor %}
     </div>
-
   </div>
