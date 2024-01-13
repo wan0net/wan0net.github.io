@@ -126,7 +126,7 @@ This presentation will approach threat intelligence from an analysts perspective
 #### Text Classification of Network Intrusion Alerts to Enhance Cyber Situation Awareness and Automate Alert Triage
 *DST Group May 2017*
 
-[Read it here!](https://www.dst.defence.gov.au/sites/default/files/publications/documents/DST-GroupTN-1640.pdf)
+[Read it here!](https://www.dst.defence.gov.au/publication/text-classification-network-intrusion-alerts-enhance-cyber-situation-awareness-and)
 
 For many Cyber Security Incident Response Teams (CSIRT), reacting and responding
 to suspicious network activity is predominantly a manual task and lacks the necessary levels of automation required to deal with the volume of alerts. Alerts are signalled from tools such as Intrusion Detection Systems (IDS) to skilled analysts who must then decide on courses of action and remediation activities. The IDS alerts are basic; analysts must manually derive context about the alert using their prior knowledge. 
