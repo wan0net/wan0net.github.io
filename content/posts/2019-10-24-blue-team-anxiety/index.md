@@ -20,7 +20,7 @@ When I say anxious, I mean I can lie in bed after a day of work and worry that I
 When I say anxious, I mean when I’m writing a blog post talking about anxiety I worry my experiences are not valid, or that I am less of a person for talking about it.
 
 ### stats
-These are not thoughts or feelings that are specific to blue team cyber security professionals. In fact, some rough Googling tells me that [“One quarter of Australians will experience an anxiety condition in their lifetime”](https://www.beyondblue.org.au/media/statistics), and that [mental health issues are reportedly increasing for members of the millennial cohort](https://www.businessinsider.com/millennials-mental-health-burnout-lonely-depressed-money-stress/?r=AU&IR=T) (which despite how old I feel sometimes, I am a member of), cohort.
+These are not thoughts or feelings that are specific to blue team cyber security professionals. In fact, some rough Googling tells me that [“One quarter of Australians will experience an anxiety condition in their lifetime”](https://www.beyondblue.org.au/media/statistics), and that [mental health issues are reportedly increasing for members of the millennial cohort](https://www.businessinsider.com/millennials-mental-health-burnout-lonely-depressed-money-stress/?r=AU&IR=T) (which despite how old I feel sometimes, I am a member of).
 
 ## anxiety for blue team
 So why does it seem that a larger proportion of my profession are affected by these issues? I’m talking specifically about blue team here because I feel like there is a distinction between red and blue and because I personally have minimal experience with red. In essence, I think it boils down to these reasons:
