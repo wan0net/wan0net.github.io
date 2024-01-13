@@ -4,15 +4,14 @@ date: 2020-04-12
 draft: false
 layout: "post"
 preview: 2020-04-12-thoughts-on-comfycon-1.png
+cover: 2020-04-12-thoughts-on-comfycon-1.png
+feature: 2020-04-12-thoughts-on-comfycon-1.png
 ---
 
 
 It’s less than 24 hours after we finished, but all of these thoughts are running through my mind. I wanted to capture them before we lost them.
 
 ## ComfyCon AU?
-
-
-![](2020-04-12-thoughts-on-comfycon-1.png)
 
 In the beginning, there was a tired, redheaded “cyber guy”. He’d just gotten off over 24 hours of flights with his partner, cutting their holiday short and returning with their tail between their legs to their home country before all intermediate countries closed their borders.
 
