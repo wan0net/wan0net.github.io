@@ -31,28 +31,37 @@ So I primarily have three use cases for computing at home. Gaming, Projects, and
 - Google Chrome
 - Notion
 - 
+---
+
 ### web
+
+---
 
 ### mobile
 - Secure Shellfish
+
+---
 
 ### thick
 - chocolatey
 - Visual Studio Code
 
+---
 
 ## desktop
 ![](desktop.jpg)
 ### specs
 - AMD Ryzen 7 5700x CPU
 - Asrock X570 Steel Legend WiFi ax Motherboard
-- Corsair Vengeance LP 64GB RAM
-- Asus TUF nVidia RTX 4070 12GB GPU
-- Samsung 970 Evo Pro 512GB SSD
-- Crucial P3 2TB SSD
+- Corsair Vengeance LP 64Gb RAM
+- Asus TUF nVidia RTX 4070 12Gb GPU
+- Samsung 970 Evo Pro 512Gb SSD
+- Crucial P3 2Tb SSD
 - Corsair CX750 750w PSU
 - USB Controller Cards
 - Lian Li O11 Dynamic Evo Case
+
+---
 
 ### desk
 - IKEA Bekant Sit-Stand Desk
@@ -69,15 +78,39 @@ So I primarily have three use cases for computing at home. Gaming, Projects, and
 - Logitech G512 (Blue) Keyboard
 - XBOX One Series Controller
 
+---
+
+## tablet
+### iPad Pro 12.9-inch 5th Generation 512Gb
+- iPad Pencil 2
+- Logitech Combo Touch Case
+
+---
+
+## phone
+### iPhone 13 Pro Max 256Gb
+
+---
+
 ## consoles
-- Playstation 5
 - Steam Deck
 - - dBrand Skin
-- 
-## ipad
-- iPad Pro 12.9-inch 5th Generation
+- - Western Digital 512Gb SSD
+- - Samsung 512Gb microSD
+- Nintendo Switch
+- Nintendo Wii
+- Sony Playstation 5
+- Sony Playstation 3
 
-## iphone
-- iPhone 
+---
 
 ## 3d printers
+
+---
+
+### Creality Ender 3v2
+- Creality Sprite Pro Extruder
+
+---
+
+### Anycubic Photon Mono
