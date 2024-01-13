@@ -1,5 +1,5 @@
 ---
-title: "thoughts on ComfyCon AU 2020"
+title: 'thoughts on ComfyCon AU 2020'
 date: 2020-04-12
 draft: false
 layout: "post"

@@ -1,5 +1,5 @@
 ---
-title: "blue team cyber anxiety"
+title: 'blue team cyber anxiety'
 date: 2019-10-24
 draft: false
 layout: "post"

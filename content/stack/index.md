@@ -1,5 +1,5 @@
 ---
-title: "stack"
+title: 'stack'
 date: 2024-01-13
 preview: ""
 draft: false
