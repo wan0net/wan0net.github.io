@@ -26,4 +26,5 @@ title = "@wan0net"
      { slack = "https://workspace.url/team/userid" },
      { steam = "https://steamcommunity.com/profiles/wan0net" },
      { x-twitter = "https://twitter.com/wan0net" },
+     { ko-fi = "https://ko-fi.com/wan0net"},
    ]
