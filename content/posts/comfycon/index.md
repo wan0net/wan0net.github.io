@@ -1,9 +1,11 @@
 ---
 title: 'thoughts on ComfyCon AU 2020'
 date: 2020-04-12
+description: "thoughts on ComfyCon AU 2020"
 draft: false
 layout: "post"
 preview: 2020-04-12-thoughts-on-comfycon-1.png
+thumb: 2020-04-12-thoughts-on-comfycon-1.png
 cover: 2020-04-12-thoughts-on-comfycon-1.png
 feature: 2020-04-12-thoughts-on-comfycon-1.png
 ---

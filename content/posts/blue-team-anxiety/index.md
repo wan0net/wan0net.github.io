@@ -1,9 +1,11 @@
 ---
 title: 'blue team cyber anxiety'
 date: 2019-10-24
+description: "blue team cyber anxiety"
 draft: false
 layout: "post"
 preview: dog.gif
+thumb: dog.gif
 cover: dog.gif
 feature: dog.gif
 ---
