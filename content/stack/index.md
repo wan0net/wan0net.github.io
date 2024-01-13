@@ -110,6 +110,8 @@ So I primarily have three use cases for computing at home. Gaming, Projects, and
 
 ### Creality Ender 3v2
 - Creality Sprite Pro Extruder
+- CRTouch
+- PEI Bed
 
 ---
 
