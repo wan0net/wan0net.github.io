@@ -94,9 +94,9 @@ So I primarily have three use cases for computing at home. Gaming, Projects, and
 
 ## consoles
 - Steam Deck
-- - dBrand Skin
-- - Western Digital 512Gb SSD
-- - Samsung 512Gb microSD
+  - dBrand Skin
+  - Western Digital 512Gb SSD
+  - Samsung 512Gb microSD
 - Nintendo Switch
 - Nintendo Wii
 - Sony Playstation 5
