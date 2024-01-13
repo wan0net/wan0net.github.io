@@ -1,5 +1,5 @@
 ---
-title: "My Stack"
+title: "stack"
 date: 2024-01-13
 preview: ""
 draft: false
@@ -13,18 +13,18 @@ showPagination: false
 showReadingTime: false
 ---
 
-## My Use Case
+## my use case
 So I primarily have three use cases for computing at home. Gaming, Projects, and just general life.
-### Gaming
-### Projects
-### Life
+### gaming
+### projects
+### life
 
-## Web Apps
+## web apps
 - Proton Mail
 - 
-## Desktop
+## desktop
 
-### Specs
+### specs
 - AMD Ryzen 7 5700x
 - Asrock X570 Steel Legend WiFi ax
 - Corsair Vengeance LP 64GB
@@ -35,7 +35,7 @@ So I primarily have three use cases for computing at home. Gaming, Projects, and
 - USB Controller Cards
 - Lian Li O11 Dynamic Evo
 
-### Desk
+### desk
 - IKEA Bekant
 - LG 49" Ultrawide LC49RG90SSEXXY
 - Viewsonic 27" QHD VA2719-2K-SMHD
@@ -50,10 +50,10 @@ So I primarily have three use cases for computing at home. Gaming, Projects, and
 - Logitech G512 (Blue)
 - XBOX One Series Controller
 
-### Apps
+### apps
 
-## iPad
+## ipad
 
-## iPhone
+## iphone
 
-## 3D Printers
+## 3d printers

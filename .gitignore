@@ -24,3 +24,4 @@ go.work
 /public
 /node_modules
 /resources
+*.deb*
