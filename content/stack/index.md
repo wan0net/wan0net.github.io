@@ -89,14 +89,22 @@ So I primarily have three use cases for computing at home. Gaming, Projects, and
 
 ## phone
 ### iPhone 13 Pro Max 256Gb
-
+- dBrand “Glitch Camo” Skin
+- dBrand Grip Case
+- Apple AirPods Pro 2
+  
 ---
 
-## consoles
-- Steam Deck
-  - dBrand Skin
-  - Western Digital 512Gb SSD
-  - Samsung 512Gb microSD
+## steam deck
+- dBrand “Glitch Camo” Skin
+- dBrand Killswitch Case
+- Western Digital 512Gb SSD
+- Samsung 512Gb microSD
+- Gulikit Hall Effect Joysticks
+
+——-
+
+## consoles 
 - Nintendo Switch
 - Nintendo Wii
 - Sony Playstation 5
