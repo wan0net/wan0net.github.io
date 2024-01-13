@@ -30,7 +30,7 @@ fingerprintAlgorithm = "sha256"
 
 [homepage]
   layout = "profile" # valid options: page, profile, custom
-  showRecent = false
+  showRecent = true
   recentLimit = 5
 
 [article]
@@ -51,7 +51,7 @@ fingerprintAlgorithm = "sha256"
   showWordCount = false
   showComments = false
   sharingLinks = ["facebook", "twitter", "mastodon", "reddit", "linkedin", "email"]
-  
+
 [list]
   showBreadcrumbs = false
   showSummary = false
