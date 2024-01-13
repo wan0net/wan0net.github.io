@@ -26,15 +26,18 @@ So I primarily have three use cases for computing at home. Gaming, Projects, and
 
 ## apps
 
-### web
+### all
 - Proton Mail
+- Google Chrome
+- Notion
+- 
+### web
 
 ### mobile
+- Secure Shellfish
 
 ### thick
 - chocolatey
-- Google Chrome
-- Notion
 - Visual Studio Code
 
 
