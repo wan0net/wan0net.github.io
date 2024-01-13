@@ -38,6 +38,7 @@ entered the cyber security industry, both bright eyed and bushy tailed - way bac
 
 This presentation covers the last ten years of cyber security history, picking out the most important (in my opinion) events of each year, and describing the lessons learnt from them from someone who lived them.
 
+---
 
 ### 2022
 #### Careers in Canberra Cyber Podcast
@@ -49,6 +50,7 @@ Iain Dickson, Cyber Operations and Full Spectrum Cyber Practice Lead, Australia,
 Leidos, joins the show to discuss his Cyber career in Canberra.
 This industry profile is part of a series looking at those working in the cyber industry in Canberra.
 
+---
 
 ### 2021
 #### So you want to build a Security Operations Capability?
@@ -63,6 +65,8 @@ Building a Security Operations capability from scratch is hard. How many people 
 questions that are required in order to develop a successful Security Operations
 capability, and how you can develop a function that meets the needs of the business,
 whilst ensuring that stakeholders don't see it as a "financial sink" and see the value provided to the business.
+
+---
 
 ### 2020
 #### Origins of Hackers
@@ -86,6 +90,8 @@ Iain walks us through a presentation on the origins of Hackers and defines the d
 
 The Australian Signals Directorate has recently removed all traditional references to “should” and “must” from the Information Security Manual. This means that there are no longer a defined set of security controls that must be in place to achieve accreditation of secure and classified networks. This represents a transition in the way that the government treats cyber security, and will enable and delegate the responsibility for government and industry partners to determine their own cyber security risk, their risk appetite, and in turn use these to determine what security controls they need to implement to achieve an accepted level of risk. This presentation discusses the impact of these changes, as well as the industry wide transition from a compliance or “checklist” based cyber security strategy, to one more in line with traditional business or mission risk.
 
+---
+
 ### 2019
 #### Cyber Threat Intelligence: It’s not just about the feeds
 *BSides Perth Sept 2019*
@@ -96,6 +102,8 @@ termed Cyber Threat Intelligence, where the marriage of traditional intelligence
 techniques and analysis with deep technical understanding within the Cyber domain are used to predict future actions by threats through long term analysis and modelling. This approach is then used to support both proactive and reactive cyber security actions, from incident response to penetration testing. This presentation focuses on threat intelligence from a practical data perspective, moving away from just the commercial concept of threat intelligence feeds (although these form one part of the equation). 
 
 This presentation will approach threat intelligence from an analysts perspective of what questions needs to be answered to effectively investigate an incident, using the Diamond Model and Cyber Kill Chain as framing devices. These questions will then lead to examples of the data that can be used to answer these questions. Although traditionally data collection has focused on external cyber information, more often than not however, it’s actions outside of those seen within an organisations network, or even outside cyberspace that can provide context to the actions a threat takes. Finally, we provide a number of use cases on which the results of threat intelligence processes can be applied within a Security Operations Centre, including Incident Response as well as traditional Penetration Testing and Red Teaming.
+
+---
 
 ### 2017
 
