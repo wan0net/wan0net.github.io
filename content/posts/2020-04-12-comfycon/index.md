@@ -8,6 +8,7 @@ preview: 2020-04-12-thoughts-on-comfycon-1.png
 thumb: 2020-04-12-thoughts-on-comfycon-1.png
 cover: 2020-04-12-thoughts-on-comfycon-1.png
 feature: 2020-04-12-thoughts-on-comfycon-1.png
+slug: comfycon
 ---
 
 

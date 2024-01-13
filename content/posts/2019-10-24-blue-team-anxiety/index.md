@@ -8,6 +8,7 @@ preview: dog.gif
 thumb: dog.gif
 cover: dog.gif
 feature: dog.gif
+slug: blue-team-anxiety
 ---
 
 ## anxiety
