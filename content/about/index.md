@@ -24,12 +24,28 @@ Iain is the Full Spectrum Cyber Practice Lead for Leidos Australia, and provides
 ## presentations and publications
 
 ### 2023
-#### 
+#### Supporting Mission Assurance and Securing Autonomous Systems through Cyber-worthiness Principles
 *Military Computer Information Systems Conference 2023*
 
 *Australian Defence Force Cyber Skills Challenge November 2023*
 
+Technology in Australia is evolving and we are seeing a natural convergence of Information Technology (IT) and Operational Technology (OT) concepts. As the demand for autonomy in systems increases, gradually removing humans from the decision-making process, it is critical to emphasise the need for wholly assured resilient systems. Compounded with this, unlike a traditional system where the platform/crew of the capability are developed and evaluated, the platform in an autonomous system is responsible for all operations. Therefore, the software of the platform is explicitly linked to the safety of that system; when actions are driven by 1’s and 0’s within lines of code, the potential to steer a ship into a catastrophic event or instruct a helicopter to shut off enabling systems is inherently greater. Cyber-worthiness principles can inform trust and assurance methods to help secure autonomous systems used in support of military operations.
+
+This presentation explores the development of processes for the application of cyber-worthiness principles—the concept of developing a system that can defend against cyber intrusions within a given mission context—and its application within an overall mission assurance context. We discuss the importance of the mounting of a safety case for an autonomous platform, and how lessons learnt from the IT side of the IT/OT divide can be applied and tailored for mission critical systems.
+
 ---
+
+#### ComfyCon, Risk-Based Cybersecurity, and Reconsidering Breach Penalties with Iain Dickson
+*Secured Podcast August 2023*
+
+<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/au/podcast/comfycon-risk-based-cybersecurity-and-reconsidering/id1680660068?i=1000623219634"></iframe>
+
+In the latest episode of Secured, Cole Cornford chats with Iain Dickson, Full Spectrum Cyber Practice Lead at Leidos Australia, a technology company working across defence, aviation and national security. Iain is also the co-founder of ComfyCon, an online cyber security conference which was started in response to the many event cancellations caused by the 2020 covid lockdowns. 
+
+Iain chats with Cole Cornford about taking a risk-based vs a compliance based-approach to cybersecurity, why punishing a company for their security breaches can sometimes be a bad idea in the long run, the importance of communication skills, and plenty more.
+
+---
+
 #### 2013-2023 in Cyber: Why are you still banging your head against a brick wall? 
 *SecTalks Canberra February 2023*
 
@@ -44,7 +60,7 @@ This presentation covers the last ten years of cyber security history, picking o
 #### Careers in Canberra Cyber Podcast
 *Canberra Cyber Hub April 2022*
 
-[Listen to it here!](https://podcasts.apple.com/au/podcast/careers-in-canberra-cyber/id1618650565) 
+<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/au/podcast/careers-in-canberra-cyber-iain-dickson-leidos-ep-3/id1618650565?i=1000556862009"></iframe>
 
 Iain Dickson, Cyber Operations and Full Spectrum Cyber Practice Lead, Australia, at
 Leidos, joins the show to discuss his Cyber career in Canberra.
@@ -72,7 +88,7 @@ whilst ensuring that stakeholders don't see it as a "financial sink" and see the
 #### Origins of Hackers
 *Hacking Into Security Podcast Aug 2020*
 
-[Listen to it here!](https://rss.com/podcasts/hackingintosecurity/65672/)
+<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/us/podcast/hacking-into-security-20-the-origins-of-hackers/id1508255491?i=1000488225448"></iframe>
 
 In this episode, we catch up with Iain Dickson, ComfyCon AU Founder, Cyber Technical
 Lead for Leidos Australia.
