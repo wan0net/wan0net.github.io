@@ -9,5 +9,7 @@ showAuthor: false
 showBreadcrumbs: false
 showDate: false
 showDateUpdated: false
+showPagination: false
+showReadingTime: false
 ---
 _This_ is the content of my blog post.

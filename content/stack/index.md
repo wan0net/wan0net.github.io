@@ -9,6 +9,8 @@ showBreadcrumbs: false
 showDate: false
 showDateUpdated: false
 showTableOfContents: true
+showPagination: false
+showReadingTime: false
 ---
 
 ## My Use Case
