@@ -53,6 +53,7 @@ services:
       - "traefik.http.routers.portainer.entrypoints=websecure"
       - "traefik.http.routers.portainer.rule=Host(`portainer.example.com`)"
       - "traefik.http.services.portainer.loadbalancer.server.port=9443"
+      - "traefik.http.services.unifi.loadbalancer.server.scheme=https"
 networks:
   proxy:
     external: true
@@ -60,9 +61,10 @@ networks:
 ```
 
 The changes to this file now say that portainer will run on the ```proxy``` network (which Traefik also should be connected to), and sets a few variables that configure Traefik including:
-- Telling it to host the docker container on the ```websecure``` endpoint - which is HTTPS in my case.
+- Telling it to proxy the docker container on the ```websecure``` endpoint - which is HTTPS in my case.
 - Enable access through ```portainer.example.com```
 - That the port that Portainer is listening to is port 9443.
+- The protocol that 9443 is listening for is HTTPS
   
 ## managing secrets
 
@@ -88,6 +90,7 @@ services:
       - "traefik.http.routers.portainer.entrypoints=websecure"
       - "traefik.http.routers.portainer.rule=${TRAEFIK_RULE}"
       - "traefik.http.services.portainer.loadbalancer.server.port=${TRAEFIK_PORT}"
+      - "traefik.http.services.unifi.loadbalancer.server.scheme=https"
 networks:
   proxy:
     external: true
