@@ -68,7 +68,7 @@ The changes to this file now say that portainer will run on the ```proxy``` netw
   
 ## managing secrets
 
-The problem with this approach is that I have embedded my secrets in the docker-compose files, and that means I have to secure my Git repository. That's not a great option when I want to share the code with other people. I also don't want to make it difficult for other people to replicate what I did.
+The problem with this approach is that I have embedded my secrets in the docker-compose files, and that means I have to secure my git repository. That's not a great option when I want to share the code with other people. I also don't want to make it difficult for other people to replicate what I did.
 
 Secrets can instead be included by docker through environmental variables or through docker secrets. I'm not entirely comfortable with docker-secrets, and it doesn't (imo) provide as much flexibility, so I'm using environmental variables. To do that, we modify the docker-compose file to include variables of the things we don't want to be stored in git:
 ```
