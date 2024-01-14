@@ -20,11 +20,11 @@ title = "@wan0net"
    links = [
      { email = "mailto:icd@wan0.net" },
      { linkedin = "https://linkedin.com/in/wan0net" },
-     { discord = "https://discord.gg/xCkgjmGzTr" },
+     { x-twitter = "https://twitter.com/wan0net" },
      { github = "https://github.com/wan0net" },
      { reddit = "https://reddit.com/user/wan0net_" },
      { slack = "https://workspace.url/team/userid" },
+     { discord = "https://discord.gg/xCkgjmGzTr" },
      { steam = "https://steamcommunity.com/id/wan0net/" },
-     { x-twitter = "https://twitter.com/wan0net" },
      { ko-fi = "https://ko-fi.com/wan0net"},
    ]

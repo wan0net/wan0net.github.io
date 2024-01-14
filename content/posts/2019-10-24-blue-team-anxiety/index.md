@@ -11,7 +11,6 @@ feature: dog.gif
 slug: blue-team-anxiety
 ---
 
-## anxiety
 I’m just going to come out and say it. I’m a blue team cyber security professional, and I get anxious. It’s taken me a while to get to the point to be able to say that, rather than I “suffer” anxiety.
 
 When I say anxious, I’m talking about the “oh no I’ve left the gas on” thoughts when I’m 3 hours away from home, and haven’t even used the gas stove for a couple of weeks, and then spend hours trying to work out a way to just confirm that the gas was in fact off.
@@ -20,7 +19,7 @@ When I say anxious, I mean I can lie in bed after a day of work and worry that I
 
 When I say anxious, I mean when I’m writing a blog post talking about anxiety I worry my experiences are not valid, or that I am less of a person for talking about it.
 
-### stats
+## anxiety stats
 These are not thoughts or feelings that are specific to blue team cyber security professionals. In fact, some rough Googling tells me that [“One quarter of Australians will experience an anxiety condition in their lifetime”](https://www.beyondblue.org.au/media/statistics), and that [mental health issues are reportedly increasing for members of the millennial cohort](https://www.businessinsider.com/millennials-mental-health-burnout-lonely-depressed-money-stress/?r=AU&IR=T) (which despite how old I feel sometimes, I am a member of).
 
 ## anxiety for blue team
