@@ -1,7 +1,7 @@
 ---
 title: 'homelab part x: secrets management'
 date: 2024-01-13
-preview: ""
+description: ""
 draft: false
 layout: "post"
 preview: vault-secrets.png
