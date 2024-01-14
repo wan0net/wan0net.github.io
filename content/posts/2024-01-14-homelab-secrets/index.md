@@ -4,7 +4,12 @@ date: 2024-01-13
 preview: ""
 draft: false
 layout: "post"
+preview: vault-secrets.png
+thumb: vault-secrets.png
+cover: vault-secrets.png
+feature: vault-secrets.png
 ---
+
 This is being written as the first post for the homelab series. In this, I describe the creation of my docker-compose files, and the management of secrets within this.
 
 Lets take [Portainer](https://www.portainer.io/) as an example. You can get this going with a fairly simple docker-compose file.
