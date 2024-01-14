@@ -29,6 +29,8 @@ Iain is the Full Spectrum Cyber Practice Lead for a large multinational, and pro
 
 *Australian Defence Force Cyber Skills Challenge November 2023*
 
+{{< embed-pdf url="Supporting Mission Assurance and Securing Autonomous Systems through Cyber-worthiness Principles.pdf" >}}
+
 Technology in Australia is evolving and we are seeing a natural convergence of Information Technology (IT) and Operational Technology (OT) concepts. As the demand for autonomy in systems increases, gradually removing humans from the decision-making process, it is critical to emphasise the need for wholly assured resilient systems. Compounded with this, unlike a traditional system where the platform/crew of the capability are developed and evaluated, the platform in an autonomous system is responsible for all operations. Therefore, the software of the platform is explicitly linked to the safety of that system; when actions are driven by 1’s and 0’s within lines of code, the potential to steer a ship into a catastrophic event or instruct a helicopter to shut off enabling systems is inherently greater. Cyber-worthiness principles can inform trust and assurance methods to help secure autonomous systems used in support of military operations.
 
 This presentation explores the development of processes for the application of cyber-worthiness principles—the concept of developing a system that can defend against cyber intrusions within a given mission context—and its application within an overall mission assurance context. We discuss the importance of the mounting of a safety case for an autonomous platform, and how lessons learnt from the IT side of the IT/OT divide can be applied and tailored for mission critical systems.
@@ -48,6 +50,8 @@ Iain chats with Cole Cornford about taking a risk-based vs a compliance based-ap
 
 #### 2013-2023 in Cyber: Why are you still banging your head against a brick wall? 
 *SecTalks Canberra February 2023*
+
+{{< embed-pdf url="2013 - 2023 in Cyber - Why do I keep banging my head against a brick wall.pdf" >}}
 
 I was driving home recently and realised it had been a decade to the day that I had
 entered the cyber security industry, both bright eyed and bushy tailed - way back when cyber was a euphemism for something you did in your bedroom. 10 years later, slightly jaded, somewhat cynical, but still passionate as ever, I have worked with some amazing people through some of the most interesting and quickly evolving times of our industry. 
@@ -77,6 +81,8 @@ This industry profile is part of a series looking at those working in the cyber 
 {{< youtube YyAr89D7h_s >}}
 *Talk starts 4:51:37 in to the video*
 
+{{< embed-pdf url="So you want to build a Security Operations Capability.pdf" >}}
+
 Building a Security Operations capability from scratch is hard. How many people do you need? What processes should you use? What tools can you implement? Should you go 24/7 or 8/5? This presentation discusses some of the thought processes and key
 questions that are required in order to develop a successful Security Operations
 capability, and how you can develop a function that meets the needs of the business,
@@ -90,19 +96,22 @@ whilst ensuring that stakeholders don't see it as a "financial sink" and see the
 
 <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/us/podcast/hacking-into-security-20-the-origins-of-hackers/id1508255491?i=1000488225448"></iframe>
 
+{{< embed-pdf url="Hackers - Who, what, when, where.pdf" >}}
+
 In this episode, we catch up with Iain Dickson, ComfyCon AU Founder, Cyber Technical
 Lead for Leidos Australia.
 
 Iain walks us through a presentation on the origins of Hackers and defines the different types of threat actors,
 
----
+-
 
 #### Transitioning Cyber Security to a Mission Risk Mindset (aka, why the new ISM is better)
 *Military Computer Information Systems Conference 2019*
 
-*CSides June 2020*
-
+*
 {{< youtube nvsIV3SYEQ4 >}}
+
+{{< embed-pdf url="Transitioning Cyber Security to a Mission Risk Mindset (aka, why the new ISM is better).pdf" >}}
 
 The Australian Signals Directorate has recently removed all traditional references to “should” and “must” from the Information Security Manual. This means that there are no longer a defined set of security controls that must be in place to achieve accreditation of secure and classified networks. This represents a transition in the way that the government treats cyber security, and will enable and delegate the responsibility for government and industry partners to determine their own cyber security risk, their risk appetite, and in turn use these to determine what security controls they need to implement to achieve an accepted level of risk. This presentation discusses the impact of these changes, as well as the industry wide transition from a compliance or “checklist” based cyber security strategy, to one more in line with traditional business or mission risk.
 
@@ -111,6 +120,8 @@ The Australian Signals Directorate has recently removed all traditional referenc
 ### 2019
 #### Cyber Threat Intelligence: It’s not just about the feeds
 *BSides Perth Sept 2019*
+
+{{< embed-pdf url="Cyber Threat Intelligence - It's not just about the feeds.pdf" >}}
 
 Although the practice of collecting and using intelligence has been studied and
 conducted by governments and the military for centuries, it’s relative application to Cyber Security has only recently been highlighted. This area of infosec has been
