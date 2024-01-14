@@ -8,6 +8,7 @@ preview: vault-secrets.png
 thumb: vault-secrets.png
 cover: vault-secrets.png
 feature: vault-secrets.png
+slug: homelab-secrets
 ---
 
 This is being written as the first post for the homelab series. In this, I describe the creation of my docker-compose files, and the management of secrets within this.
