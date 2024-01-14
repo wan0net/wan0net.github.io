@@ -65,7 +65,7 @@ Secrets can instead be included by docker through environmental variables or thr
 version: "3.7"
 services:
   portainer:
-    image: portainer/portainer-ee:latest
+    image: portainer/portainer-ce:latest
     hostname: "portainer"
     container_name: "portainer"
     volumes:
