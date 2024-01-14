@@ -20,6 +20,8 @@ version: "3.7"
 services:
   portainer:
     image: portainer/portainer-ce:latest
+    hostname: "portainer"
+    container_name: "portainer"
     ports:
       - 9443:9443
       volumes:
