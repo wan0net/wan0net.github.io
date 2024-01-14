@@ -13,7 +13,7 @@ slug: homelab-secrets
 
 This is being written as the first post for the homelab series. In this, I describe the creation of my docker-compose files, and the management of secrets within this.
 
-Lets take [Portainer](https://www.portainer.io/) as an example. You can get this going with a fairly simple docker-compose file.
+Lets take [Portainer](https://www.portainer.io/) as an example. You can get this going with a fairly simple ```docker-compose.yml``` file.
 
 ```docker
 version: "3.7"
@@ -22,6 +22,8 @@ services:
     image: portainer/portainer-ce:latest
     hostname: "portainer"
     container_name: "portainer"
+    environment:
+      - "TZ=Australia/Sydney"
     ports:
       - 9443:9443
       volumes:
@@ -32,7 +34,7 @@ services:
 In simple terms, this file pulls the ```portainer/portainer-ce:latest``` image, opens up port 9443, and mounts a folder and the docker unix socket (needed for Portainer to be able to manage the docker host it's placed on). 
 
 ## reverse proxy
-I don't really want all of my docker containers directly accessible from my network, especially when a number of them don't have TLS, and they would end up taking so many individual ports that I'd have to remember each one. So, I use a reverse proxy. I chose to use Traefik for a number of reasons, and this isn't intended to be a tutorial on how to manage Traefik (that may come later.)
+I don't really want all of my docker containers directly accessible from my network, especially when a number of them don't have TLS, and they would end up taking so many individual ports that I'd have to remember each one. So, I use a reverse proxy. I chose to use Traefik for a number of reasons, and this isn't intended to be a tutorial on how to manage Traefik (that may come later.). The following is the ```docker-compose.yml``` after I've enabled this.
 
 ```docker
 version: "3.7"
@@ -41,6 +43,8 @@ services:
     image: portainer/portainer-ce:latest
     hostname: "portainer"
     container_name: "portainer"
+    environment:
+      - "TZ=Australia/Sydney"
     volumes:
       - ./config:/data
       - /var/run/docker.sock:/var/run/docker.sock
@@ -70,7 +74,7 @@ The changes to this file now say that portainer will run on the ```proxy``` netw
 
 The problem with this approach is that I have embedded my secrets in the docker-compose files, and that means I have to secure my git repository. That's not a great option when I want to share the code with other people. I also don't want to make it difficult for other people to replicate what I did.
 
-Secrets can instead be included by docker through environmental variables or through docker secrets. I'm not entirely comfortable with docker-secrets, and it doesn't (imo) provide as much flexibility, so I'm using environmental variables. To do that, we modify the docker-compose file to include variables of the things we don't want to be stored in git:
+Secrets can instead be included by docker through environmental variables or through docker secrets. I'm not entirely comfortable with docker-secrets, and it doesn't (imo) provide as much flexibility, so I'm using environmental variables. You can see I already do that with a docker-compose defined ```TZ``` variable, which sets my timezone. But we can also pull from the environment which runs ```docker-compose```. To do that, we modify the ```docker-compose.yml``` file to include variables of the things we don't want to be stored in git:
 
 ```docker
 version: "3.7"
