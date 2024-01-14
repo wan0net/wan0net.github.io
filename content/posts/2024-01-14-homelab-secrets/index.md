@@ -53,7 +53,7 @@ services:
       - "traefik.http.routers.portainer.entrypoints=websecure"
       - "traefik.http.routers.portainer.rule=Host(`portainer.example.com`)"
       - "traefik.http.services.portainer.loadbalancer.server.port=9443"
-      - "traefik.http.services.unifi.loadbalancer.server.scheme=https"
+      - "traefik.http.services.portainer.loadbalancer.server.scheme=https"
 networks:
   proxy:
     external: true
@@ -90,7 +90,7 @@ services:
       - "traefik.http.routers.portainer.entrypoints=websecure"
       - "traefik.http.routers.portainer.rule=${TRAEFIK_RULE}"
       - "traefik.http.services.portainer.loadbalancer.server.port=${TRAEFIK_PORT}"
-      - "traefik.http.services.unifi.loadbalancer.server.scheme=https"
+      - "traefik.http.services.portainer.loadbalancer.server.scheme=https"
 networks:
   proxy:
     external: true
