@@ -15,7 +15,7 @@ This is being written as the first post for the homelab series. In this, I descr
 
 Lets take [Portainer](https://www.portainer.io/) as an example. You can get this going with a fairly simple docker-compose file.
 
-```
+```docker
 version: "3.7"
 services:
   portainer:
@@ -34,7 +34,7 @@ In simple terms, this file pulls the ```portainer/portainer-ce:latest``` image, 
 ## reverse proxy
 I don't really want all of my docker containers directly accessible from my network, especially when a number of them don't have TLS, and they would end up taking so many individual ports that I'd have to remember each one. So, I use a reverse proxy. I chose to use Traefik for a number of reasons, and this isn't intended to be a tutorial on how to manage Traefik (that may come later.)
 
-```
+```docker
 version: "3.7"
 services:
   portainer:
@@ -71,7 +71,8 @@ The changes to this file now say that portainer will run on the ```proxy``` netw
 The problem with this approach is that I have embedded my secrets in the docker-compose files, and that means I have to secure my git repository. That's not a great option when I want to share the code with other people. I also don't want to make it difficult for other people to replicate what I did.
 
 Secrets can instead be included by docker through environmental variables or through docker secrets. I'm not entirely comfortable with docker-secrets, and it doesn't (imo) provide as much flexibility, so I'm using environmental variables. To do that, we modify the docker-compose file to include variables of the things we don't want to be stored in git:
-```
+
+```docker
 version: "3.7"
 services:
   portainer:
@@ -104,7 +105,7 @@ But how do we pass the variables to the ```docker-compose``` command?
 **Bad** : You have to remember them. They're also set for the rest of that application session.
 
 Run the following commands in a terminal.
-```
+```bash
 export TZ=Australia/Sydney
 export DOCKER_PROXY_NETWORK=proxy_net
 export TRAEFIK_RULE=Host(`portainer.example.com`)
@@ -119,7 +120,7 @@ docker-compose up -d
 
 **Bad** : You shouldn't check them into your git repository else others can see them. You then have to create them when you clone git, which leads to the "Bad" of #1.
 
-```
+```bash
 echo TZ=Australia/Sydney > .env
 echo DOCKER_PROXY_NETWORK=proxy_net > .env
 echo TRAEFIK_RULE=Host(`portainer.example.com`) > .env
@@ -135,7 +136,7 @@ docker-compose up -d
 
 Now I'd already decided to use [Hashicorp Vault](https://www.vaultproject.io/) in the homelab in order to manage secrets, so I had a poke around and discovered [envconsul](https://github.com/hashicorp/envconsul). This, despite it's name, does not require a Consul setup, connects to your Vault instance and downloads secrets to set them into environment variables. And it's really easy to use.
 
-```
+```bash
 export VAULT_ADDR= # This should already be set but in case it's not, do that
 export VAULT_TOKEN= # Set this with whatever token you want
 envconsul -pristine -secret="/kv/secret" -no-prefix=true -vault-renew-token=false env
