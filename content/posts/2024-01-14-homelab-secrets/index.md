@@ -95,7 +95,7 @@ networks:
 ```
 But how do we pass the variables to the ```docker-compose``` command?
 
-### manually add to environment variables
+### 1. manually add to environment variables
 **Good** : Easy to do
 
 **Bad** : You have to remember them. They're also set for the rest of that application session.
@@ -109,7 +109,7 @@ export TRAEFIK_PORT=9443
 docker-compose up -d
 
 ```
-### create a .env file in the folder and include the variables
+### 2. create a .env file in the folder and include the variables
 
 
 **Good** : Stores your variables for you.
@@ -124,7 +124,7 @@ echo TRAEFIK_PORT=9443 > .env
 docker-compose up -d
 ```
 
-### use a secrets management application in order to store the secrets.
+### 3. use a secrets management application in order to store the secrets.
 
 **Good** : No variables stored in files and git., and variables go *poof* when the session ends.
 
