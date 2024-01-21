@@ -15,7 +15,7 @@ slug: homelab-pt1-history
 The intent behind this series of posts is to demonstrate the value of a homelab to a Cyber Security Professional, especially if you are trying to interact with operations or architects. Before we get to that point though, I feel a brief history lesson of how I've gone through homelabs over the years, how it's evolved, and what I've learnt through the process. Whilst I'm not going to go through every interation (there was a lot of changes over the years), I am going to talk about what the most "iconic" setups were.
 
 ## prehistory:
-Way back when, when @wan0net was a small, 17 year old, waiting to start his university degree, he wanted to try things out at home. He wanted to try out Linux, and he wanted to run a home server so that he could run [](znc), an IRC bouncer for the IRC servers he was on for gaming (yes, I know I'm showing my age here). He had no money, but he'd broken his second laptop ever, an Acer XXXXXXXX that was bought for him for passing his GCSE's two years ago. So he says, what the hell, why not install Linux on here?
+Way back when, when @wan0net was a small, 17 year old, waiting to start his university degree, he wanted to try things out at home. He wanted to try out Linux, and he wanted to run a home server so that he could run [znc](https://znc.in/), an IRC bouncer for the IRC servers he was on for gaming (yes, I know I'm showing my age here). He had no money, and he'd broken the hinge of his laptop , an Acer TravelMate laptop that was bought for him for passing his GCSE's two years ago. So he says, what the hell, why not install Linux on here?
 
 And so my rabbit hole down the path of Linux began, and the first time I went "Oh crap I just killed my Windows install."
 
@@ -23,7 +23,13 @@ First I made the mistake of trying Gentoo. This was the time when bandwidth caps
 
 Then I tried OpenSUSE because I went to a gaming cafe and they had a spare CD, and that lasted for a while. At this point I wasn't running a "headless" server, I basically had the laptop on a cabinet by the side of my bed, with a keyboard and mouse in my lap in bed, and a monitor on a side table. I wish I had a photo because it is just the image of a teenage boy who broke his equipment and then needs to find a way to make it work.
 
-Finally, I met Ubuntu, which started a longstanding relationship with the distro. In those days (and I think still now?) you could order an Ubuntu CD to be delivered to your house, with stickers, free of charge. No bandwidth issues anymore! Based on what is terrible memory I'm going to say that I started with Hardy (8.04 LTS), and every since then, I've used every single LTS edition of Ubuntu without fail, and ignored the other editions.
+Finally, I met Ubuntu, which started a longstanding relationship with the distro. In those days (and I think still now?) you could order an Ubuntu CD to be delivered to your house, with stickers, free of charge. No bandwidth issues anymore! Based on what is terrible memory I'm going to say that I started with Hardy (8.04 LTS), and ever since then I've used every single LTS edition of Ubuntu without fail, and ignored the other editions.
+
+An accurate representation of this entire story can be seen below:
+
+![](meme-ricky.png)
+
+This all happened pre- me having a dedicated "lab" compared to my normal "prod", but it's good context for where I went next.
 
 ## homelab v1: eeePC + external drives (2009)
 
@@ -51,7 +57,7 @@ Finally, I met Ubuntu, which started a longstanding relationship with the distro
 ### History
 This is when I started to move into dedicated machines. I don't think I can find a photo of the Microserver, which is an utter embuggerance to be honest, but we are talking the OG HP N40L Microserver as seen below:
 
-This thing was an utter dream. Did you know you could fit 6 3.5" drives in this? Through searching of random forums (probably [Whirlpool]()), I found a bracket that PC Case Gear sold that would go in the 5 1/2" bay of the Microserver and allow two drives to be mounted instead of one, due to clearance. Where did the extra SATA come from you ask? The back of the Microserver, which had an eSATA port! 
+This thing was an utter dream. Did you know you could fit 6 3.5" drives in this? Through searching of random forums (probably [Whirlpool](https://whirlpool.net.au/)), I found a bracket that PC Case Gear sold that would go in the 5 1/2" bay of the Microserver and allow two drives to be mounted instead of one, due to clearance. Where did the extra SATA come from you ask? The back of the Microserver, which had an eSATA port! 
 
 On this box I ran Ubuntu for a bit, then I heard of ZFS and FreeNAS, and I wanted some of that.
 
