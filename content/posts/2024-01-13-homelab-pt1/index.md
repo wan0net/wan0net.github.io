@@ -86,9 +86,10 @@ On this box I ran Ubuntu for a bit, then I heard of ZFS and FreeNAS, and I wante
 
 ## homelab v6: full on ubiquiti madness (2020)
 ![](homelab_v6.jpg)
+The first year of the COVID pandemic I moved into a much larger 4 bedroom house. That meant I needed, or at least I thought I needed, a more substantial networking setup. I ran conduit through the house against the baseboards with the ultra thin Monoprice CAT6 RJ45 cabling, and created a 10Gbe backbone from my garage rack, to the front room. There were 3 access points, 2 Unifi nanoHD’s and a flexHD (exact same electronics just a different form factor), all connected using a Unifi Aggregation Switch to a Unifi Dream Machine. It was… overkill to say the least.
 
 ## homelab v7: the dark ages (2021)
-I didn't do a lot with the homelab after 2020 to be honest. I ripped out most of the ubiquiti gear as I'd had too many issues keeping it running (when the UDM-PRO had an update the RJ45 SFP+ would stop working for example), and it didn’t really work as well as I wanted in mesh mode (Zero kept eating cables). I replaced my entire Ubiquiti setup with a set of two Asus XT8 that was, and continues to be, utterly amazing. I bought a new DX1215 for the Synology NAS so that I could upgrade the storage to XXX Tb. And all I really did was run docker containers - nothing fancy, just a few apps here and there.
+I didn't do a lot with the homelab after 2020 to be honest. I ripped out most of the ubiquiti gear as I'd had too many issues keeping it running (when the UDM-PRO had an update the RJ45 SFP+ would stop working for example), and it didn’t really work as well as I wanted in mesh mode (Zero kept eating the Monoprice cables when he could access them). I replaced my entire Ubiquiti setup with a set of two Asus XT8 that was, and continues to be, utterly amazing. I bought a new DX1215 for the Synology NAS so that I could upgrade the storage to XXX Tb. And all I really did was run docker containers - nothing fancy, just a few apps here and there.
 
 Life got far too busy for me to do things. I had two dogs who arrived to live with me, I became incredibly sick, and work was very busy. I just didn't *feel* like fiddling and tinkering. It's the same feeling I had when I swapped from Android to iPhone way back in 2016 - I just wanted something that worked.
 
