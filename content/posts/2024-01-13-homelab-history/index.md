@@ -5,11 +5,11 @@ preview: ""
 draft: false
 layout: "post"
 description: "homelab part 1: the history"
-#preview: vault-secrets.png
-#thumb: vault-secrets.png
-#cover: vault-secrets.png
-#feature: vault-secrets.png
-slug: homelab-pt1-history
+preview: meme-ricky.png
+thumb: meme-ricky.png
+cover: meme-ricky.png
+feature: meme-ricky.png
+slug: homelab-history
 ---
 
 I had a lot of time over Christmas, and I decided to rebuild my homelab. The intent behind this series of posts is to describe my process, whilst demonstrating the value of a homelab to a Cyber Security Professional, especially if you are trying to interact with operations or architects. 
@@ -27,9 +27,7 @@ Then I tried OpenSUSE because I went to a gaming cafe one day and they just happ
 
 Finally, I met Ubuntu, which started a longstanding relationship with the distro. In those days (and I think still now?) you could order an Ubuntu CD to be delivered to your house, with stickers, free of charge. No bandwidth issues anymore! Based on what is terrible memory I'm going to say that I started with Hardy (8.04 LTS), and ever since then I've used every single LTS edition of Ubuntu without fail, and ignored the other editions.
 
-An accurate representation of this entire story can be seen below:
-
-![](meme-ricky.png)
+An accurate representation of this entire story can be seen in the preview image above.
 
 This all happened pre- me having a dedicated "lab" compared to my normal "prod", but it's good context for where I went next.
 
