@@ -46,7 +46,7 @@ This all happened pre-me having a dedicated "lab" compared to my normal "prod", 
   - Wifi 802.11 b/g
   - 1Gb Ethernet
 - 2 x Seagate 2TB External HDD
-- 
+
 In great IT tradition, my first spelunk into homelabs was reusing equipment I no longer used daily. I was in my second year of university and had just bought a new Acer Netbook (I think it had Windows 7 on it). So my old Asus eeePC was turned into an Ubuntu Server NAS, with two external Seagate drives purchased from Harvey Norman for $99 in the NY sales (a deal at the time). I started playing with things like [XBMC, now Kodi](https://kodi.tv), and [znc](https://wiki.znc.in/ZNC), running them on the server and accessing them from my netbook. I learnt how to administer an actual server, trying to harden it, manage the storage appropriately, and backups (another 2 x 2TB of those Seagate drives as a continuous backup). 
 
 While a slow start, this was the bug that bit me.
@@ -97,14 +97,14 @@ My Microserver also got an upgrade, moving from 6TB usable storage to 30TB usabl
 
 I started running an actual “cluster” of VMware at home. I ran several applications, including playing around with [Apache Nifi](https://nifi.apache.org/), and [Plex](www.plex.tv) became the new standard for home media. I connected to it via my XBOX One and set up [OpenVPN](www.openvpn.com) to access it all remotely. This came in useful because the year after, I spent six months living in a hotel in Canberra.
 
-_Side History: when stuck in that hotel for six months, I bought a router from an Optus subsidiary VividWireless, who provided a 4G connection at 10Mbit for $89 a month. I bought a projector and used a wall of my hotel room to play TV through my XBOX One S (which I’d brought in my _luggage)_,_ which connected back_ to Plex, running on my NAS in Adelaide at my parents. Good times…_
+_Side History: when stuck in that hotel for six months, I bought a router from an Optus subsidiary VividWireless, who provided a 4G connection at 10Mbit for $89 a month. I bought a projector and used a wall of my hotel room to play TV through my XBOX One S (which I’d brought in my luggage), which connected back to Plex, running on my NAS in Adelaide at my parents. Good times…_
 
 ![](photo_from_hotel_room.jpg)
 
 ## homelab v4: the allbids special (2018)
 ![](homelab_v4.jpg)
 
-_Side Note: There is a bug if you view this on Chrome; it's left-oriented - this is an EXIF bug in Chrome, but trying to find an app that will physically rotate an image is a pain. When I work it out, I'll fix this_ 
+_Side Note: There is a bug if you view this on Chrome; it's left-oriented - this is an EXIF bug in Chrome, but trying to find an app that will physically rotate an image is a pain. When I work it out, I'll fix this!_ 
 
 - 1 x NAS - Whitebox
   - Supermicro A1SRi-C2758F
@@ -184,11 +184,15 @@ _Side History: The friend who was a Ubiquiti reseller became a meme between a fe
 
 ![](udm_meme_3.png)
 
+All of this equipment was placed within the find of the century: a 24RU Sound Resistant Server Rack that I bought for 100 bucks from someone in Sydney. I was utterly gobsmacked to find it, and all it took was me going down with a trailer one day to pick it up and bring it back.
+
+![](rack.png)
+
 I started to experiment with the automation of my homelab. I learnt about [Packer](https://www.packer.io/), [Terraform](https://www.terraform.io/) and refined my [Ansible](https://www.ansible.com/) skills, which I'd had to learn already at work. I could build a VM, deploy it on the ESXi node, and configure it easily.
 
 My problem became one of perfection. I kept trying to perfect each step in order rather than going through a single flow and then going back to each step after. Because of this, the dopamine hit subsided, and I never got to a point I had full applications running. Add to that, the limit and limitations of 32Gb of RAM on the R210ii (a lesson I had unfortunately forgotten for my new build) meant that I could only run one application at 16Gb, and the rest had to be smaller - to enable the hypervisor.
 
-_Side Note: In the picture, it appears there is a Dell R520… I did have one but for a *very* short amount of time. I think I intended to fill it with WD Green drives and run it as a shared storage solution for the R210iis. Again, power-wise, too much, and in summer (noting this was all in my garage), it did not fare well._
+_Side Note: In the rack picture, it appears there is a Dell R520… I did have one but for a *very* short amount of time. I think I intended to fill it with WD Green drives and run it as a shared storage solution for the R210iis. Again, power-wise, too much, and in summer (noting this was all in my garage), it did not fare well._
 
 ## homelab v7: the dark ages (2021)
 
@@ -203,8 +207,8 @@ _Side Note: In the picture, it appears there is a Dell R520… I did have one bu
 - 1 x Plex Host - Dell Optiplex 7040
   - Intel i5 6500T
   - 16Gb DDR4 RAM
-  - nVidia   
-  - 250 Gb Crucial M500
+  - nVidia Quadro P600
+  - 250Gb Crucial M500
 - 2 x Asus XT8 Access Point
 
 Honestly, I didn't do much with the homelab after 2020. I ripped out most of the Ubiquiti gear as I'd had too many issues keeping it running (when the UDM-PRO had an update, the RJ45 SFP+ would stop working, for example), and the non-ethernet-uplink mesh performance was complete and utter garbage. I replaced my entire Ubiquiti setup with a set of two Asus XT8, which continues to be utterly amazing. I bought a new DX1215 for the Synology NAS to upgrade the storage to ~120Tb usable. I purchased the Dell Desktop to enable transcoding on Plex through either Intel Quicksync or nVidia NVENC. 
@@ -243,9 +247,13 @@ Life got far too busy for me to do things. I had two dogs who lived with me, I w
 - 1 x KeepLink 8 Port 2.5Gbe Switch
 - 1 x TP-Link 8 Port 1Gbe Switch     
 - 2 x Asus XT8
+- 1 x Ubiquiti Unifi nanoHD AP
+
 
 Christmas was coming up, and I felt energised. For the first time in a long time, I wanted a project to work on, so I looked at upscaling, but not to an extreme level, my homelab. I wanted somewhere to try products I don't have time to evaluate at work and try and learn this newfangled [Kubernetes](https://kubernetes.io/) thing - after all, I will eventually have to build security for it at work.
 
 I can’t promise this will stay this way for long - I’m looking at swapping the M910q for a M920q, maybe some more compute nodes - but it’s where we are now. I'm running [Proxmox](https://www.proxmox.com/en/) on each compute and services host, and [OPNSense](https://opnsense.org/) on the Gateway. You may think 32Gb in a gateway is overkill... and you're probably right, but I've also got [Suricata](https://suricata.io/), [bind](https://www.isc.org/bind/), and [Tailscale](https://tailscale.com/) as a subnet router running on it... but we're getting ahead of ourselves, that's a future part :). Also, I had it spare after I upgraded the other nodes.
+
+The Asus XT8 is now only doing duty as a WiFi mesh AP and only for my "prod" network. Due to funkiness with the Asus firmware (they don't *actually* support VLANs unless you buy a newer model), I had to offload my IOT network to one of the nanoHD I had lying around, although I installed [OpenWRT](https://openwrt.org/) on it.
 
 The services host is my attempt at having a "prod" versus "dev": "prod" is made up of the docker containers on the NAS and the services host and will be anything that needs to be "on" permanently - Plex, [Vault](https://www.vaultproject.io/), [InfluxDB](https://www.influxdata.com/), all of that. The Compute Host cluster is an entirely destroyable and rebuildable system for me to evaluate products and services like [Istio](https://istio.io/), [Elastic](elastic.co) and its agent, and [MISP](https://www.misp-project.org/). The NAS will provide storage to all of it, and I'm currently looking at replacing the 2 x 500GB SSD drives with something a little larger to enable either iSCSI or SMB to the Kubernetes cluster for persistent storage.
