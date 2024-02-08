@@ -37,6 +37,7 @@ This all happened pre-me having a dedicated "lab" compared to my normal "prod", 
 ## homelab v1: eeePC + external drives (2010)
 
 ![](homelab_v1.jpg)
+_The aforementioned Acer Travelmate compared to the Asus eeePC_
 
 - 1 x Server - Asus eeePC 904HA
   - Intel Atom B270 @ 1.6GHz
@@ -45,7 +46,6 @@ This all happened pre-me having a dedicated "lab" compared to my normal "prod", 
   - Wifi 802.11 b/g
   - 1Gb Ethernet
 - 2 x Seagate 2TB External HDD
-_The aforementioned Acer Travelmate compared to the Asus eeePC_
 
 In great IT tradition, my first spelunk into homelabs was reusing equipment I no longer used daily. I was in my second year of university and had just bought a new Acer Netbook (I think it had Windows 7 on it). So my old Asus eeePC was turned into an Ubuntu Server NAS, with two external Seagate drives purchased from Harvey Norman for $99 in the NY sales (a deal at the time). I started playing with things like [XBMC, now Kodi](https://kodi.tv), and [znc](https://wiki.znc.in/ZNC), running them on the server and accessing them from my netbook. I learnt how to administer an actual server, trying to harden it, manage the storage appropriately, and backups (another 2 x 2TB of those Seagate drives as a continuous backup). 
 
@@ -54,6 +54,7 @@ While a slow start, this was the bug that bit me.
 ## homelab v2: the microserver and the whitebox (2013)
 
 ![](homelab_v2.jpg)
+_The glory that is the HP N54L Microserver_
 
 - 1 x NAS - HP N54L Microserver
   - 8GB DDR2 RAM
@@ -63,7 +64,6 @@ While a slow start, this was the bug that bit me.
   - 16Gb DDR3
   - 120 Gb Intel 520 SSD
 - 2 x Netgear GS108Tv2 Managed Switch 
-_The glory that is the HP N54L Microserver_
 
 The N54L Microserver is a well-known part of any homelabbers arsenal, and I am no different. This thing was an utter dream. Did you know you could fit 6 3.5" drives in this? Through searching random forums (probably [Whirlpool](https://whirlpool.net.au/)), I found a bracket that PCCaseGear sold that would go in the 5 1/2" bay of the Microserver and allow two drives to be mounted instead of one, due to spare clearance - that was not there in the Gen 8 models. Where did the extra SATA come from, you ask? The back of the Microserver, which had an eSATA port! I can’t find a photo of it, which is an utter embuggerance to be honest, so you’ll have to use your imagination.
 
@@ -75,6 +75,7 @@ Speaking of networking, at this house, I ran a dual RJ45 cable from the below-th
 
 ## homelab v3: custom built nodes (2016)
 ![](homelab_v3.jpg)
+_My dining room table has a history of being used to assemble networks._
 
 - 2 x Compute Host - Whitebox
   - Supermicro A1SRi-C2758F
@@ -89,7 +90,6 @@ Speaking of networking, at this house, I ran a dual RJ45 cable from the below-th
 - 1 x Ubiquiti EdgeRouter ERLite
 - 1 x DLink DGS-1024D Switch
 - 1 x Asus AC68u Router 
-_My dining room table has a history of being used to assemble networks._
 
 Even though I was still living at home at this point, I wanted to own my entire network. I still had to connect upstream to my parents, but I segregated myself off a little subnet using my ERLite, used a smidgeon of spectrum through my own Asus AC68u router, and then hooked them both up to a 24 port managed DLink switch.
 
@@ -137,7 +137,7 @@ Eventually, I got all the boxes consistently built and then… I didn’t really
 
 ## homelab v5: the initial hit of ubiquiti (2019)
 ![](homelab_v5.jpg)
-
+_Can you tell I was earning big cyber bucks by this point?_
 - 1 x NAS - Synology 3617xs+
   - Intel Xeon D-1521
   - 16Gb DDR3 SODIMM
@@ -162,6 +162,7 @@ I'd started working as a Cyber Tech Lead, and so I used this on and off for proj
 
 ## homelab v6: full on ubiquiti madness (2020)
 ![](homelab_v6.jpg)
+_My credit card was not happy_
 
 - 1 x NAS - Synology 3617xs+
   - Xeon D-1521
@@ -200,7 +201,7 @@ My problem became one of perfection. I kept trying to perfect each step in order
 _Side Note: In the rack picture, it appears there is a Dell R520… I did have one but for a *very* short amount of time. I think I intended to fill it with WD Green drives and run it as a shared storage solution for the R210iis. Again, power-wise, too much, and in summer (noting this was all in my garage), it did not fare well._
 
 ## homelab v7: the dark ages (2021)
-
+_I had a life_
 - 1 x NAS - Synology 3617xs+
   - Xeon-D 1521
   - 48Gb DDR3 RAM
@@ -225,6 +226,8 @@ Life got far too busy for me to do things. I had two dogs who lived with me, I w
 ## homelab v8: the golden age (2023)
 
 ![](homelab_v8.png)
+_I got bored_
+
 
 _Side Note: If you didn't know, my dog is called Zero. I have a thing for Nightmare before Christmas. It definitely doesn't show._
 
