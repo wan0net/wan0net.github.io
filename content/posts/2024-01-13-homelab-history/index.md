@@ -223,6 +223,8 @@ Life got far too busy for me to do things. I had two dogs who lived with me, I w
 
 ![](homelab_v8.png)
 
+_Side Note: If you didn't know, my dog is called Zero. I have a thing for Nightmare before Christmas. It definitely doesn't show._
+
 - 1 x NAS - Synology 3617xs+
   - Xeon-D 1521
   - 48Gb DDR3 SODIMM
@@ -252,7 +254,6 @@ Life got far too busy for me to do things. I had two dogs who lived with me, I w
 - 1 x TP-Link 8 Port 1Gbe Switch     
 - 2 x Asus XT8
 - 1 x Ubiquiti Unifi nanoHD AP
-
 
 Christmas was coming up, and I felt energised. For the first time in a long time, I wanted a project to work on, so I looked at upscaling, but not to an extreme level, my homelab. I wanted somewhere to try products I don't have time to evaluate at work and try and learn this newfangled [Kubernetes](https://kubernetes.io/) thing - after all, I will eventually have to build security for it at work.
 
