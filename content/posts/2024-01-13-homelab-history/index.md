@@ -219,6 +219,8 @@ Life got far too busy for me to do things. I had two dogs who lived with me, I w
 
 ## homelab v8: the golden age (2023)
 
+![](homelab_v8.png)
+
 - 1 x NAS - Synology 3617xs+
   - Xeon-D 1521
   - 48Gb DDR3 SODIMM
