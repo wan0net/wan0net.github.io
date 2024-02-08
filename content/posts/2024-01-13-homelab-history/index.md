@@ -45,6 +45,7 @@ This all happened pre-me having a dedicated "lab" compared to my normal "prod", 
   - Wifi 802.11 b/g
   - 1Gb Ethernet
 - 2 x Seagate 2TB External HDD
+_The aforementioned Acer Travelmate compared to the Asus eeePC_
 
 In great IT tradition, my first spelunk into homelabs was reusing equipment I no longer used daily. I was in my second year of university and had just bought a new Acer Netbook (I think it had Windows 7 on it). So my old Asus eeePC was turned into an Ubuntu Server NAS, with two external Seagate drives purchased from Harvey Norman for $99 in the NY sales (a deal at the time). I started playing with things like [XBMC, now Kodi](https://kodi.tv), and [znc](https://wiki.znc.in/ZNC), running them on the server and accessing them from my netbook. I learnt how to administer an actual server, trying to harden it, manage the storage appropriately, and backups (another 2 x 2TB of those Seagate drives as a continuous backup). 
 
@@ -62,7 +63,8 @@ While a slow start, this was the bug that bit me.
   - 16Gb DDR3
   - 120 Gb Intel 520 SSD
 - 2 x Netgear GS108Tv2 Managed Switch 
-    
+_The glory that is the HP N54L Microserver_
+
 The N54L Microserver is a well-known part of any homelabbers arsenal, and I am no different. This thing was an utter dream. Did you know you could fit 6 3.5" drives in this? Through searching random forums (probably [Whirlpool](https://whirlpool.net.au/)), I found a bracket that PCCaseGear sold that would go in the 5 1/2" bay of the Microserver and allow two drives to be mounted instead of one, due to spare clearance - that was not there in the Gen 8 models. Where did the extra SATA come from, you ask? The back of the Microserver, which had an eSATA port! I can’t find a photo of it, which is an utter embuggerance to be honest, so you’ll have to use your imagination.
 
 I ran Ubuntu for a bit on this box with LVM and ext4, and then I heard of ZFS and FreeNAS, and I wanted some of that. This ran as an SMB media host for our family, and our TVs used… Wii’s to connect over SMB to it to watch TV. Yep, a Homebrew Wii was our equivalent of a Chromecast back then. 
@@ -87,6 +89,7 @@ Speaking of networking, at this house, I ran a dual RJ45 cable from the below-th
 - 1 x Ubiquiti EdgeRouter ERLite
 - 1 x DLink DGS-1024D Switch
 - 1 x Asus AC68u Router 
+_My dining room table has a history of being used to assemble networks._
 
 Even though I was still living at home at this point, I wanted to own my entire network. I still had to connect upstream to my parents, but I segregated myself off a little subnet using my ERLite, used a smidgeon of spectrum through my own Asus AC68u router, and then hooked them both up to a 24 port managed DLink switch.
 
@@ -122,6 +125,7 @@ _Side Note: There is a bug if you view this on Chrome; it's left-oriented - this
 - 1 x HP KVM Console  
 - 1 x DLink DGS-1024D Switch
 - 1 x Asus AC68u Router 
+_I was a cool kid with a rack._
 
 This is where things start to get a bit more frequent, so I will only pull out the most significant changes. It was also when I moved into my own place in a new city, and therefore, I had a whole two bedroom unit and a garage, all to myself. Unfortunately, this also included the electric bill (which was to be my downfall).
 
