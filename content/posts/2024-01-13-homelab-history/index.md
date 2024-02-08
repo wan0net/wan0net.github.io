@@ -151,7 +151,9 @@ Eventually, I got all the boxes consistently built and then… I didn’t really
 
 So one unfortunate day in 2020, my PFSense router completely crapped out. I don't remember why, and I must not have put a huge amount of effort into fixing it. I didn't want to maintain a custom, non-integrated solution anymore. I had heard about Ubiquiti from some friends who were Ubiquiti resellers and decided to give it a go. I didn't want the filthy non-rack mounted Security Gateway, so I bought a Pro and hooked it up to one of their 24 port switches, and then each part of my house that needed an outlet got an 8 port switch.
 
-Compute wise, I bought a whole bunch of Dell R210 ii servers. Technically, I bought Riverbed devices, reflashed the BIOS back to Dell, and went from there. Again, AliExpress saved the day by providing all the small pieces I needed to get it going again.
+I also ran out of storage and was looking for options for larger cases or devices. As with the Ubiquiti network, I wanted something integrated, so I ended up with the Synology 3617xs. This thing is probably far more overkill than I ever needed, but it provided all the storage I needed (with two additional storage arrays available to connect through Infiniband), as well as compute for "prod" services. This thing still runs to this day, with 0 issues, and storage is easy to manage.
+
+"dev" compute wise, I bought a whole bunch of Dell R210 ii servers. Technically, I bought Riverbed devices, reflashed the BIOS back to Dell, and went from there. Again, AliExpress saved the day by providing all the small pieces I needed to get it going again.
 
 I'd started working as a Cyber Tech Lead, and so I used this on and off for projects. The biggest thing was maintaining uptime for Plex - I had a partner in the house and we didn't use the TV aerial, so I had to fix it the moment it broke.
 
