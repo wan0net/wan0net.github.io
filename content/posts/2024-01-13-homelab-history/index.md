@@ -1,7 +1,6 @@
 ---
 title: 'homelab part 1: the history'
 date: 2024-01-13
-preview: ""
 draft: false
 layout: "post"
 description: "homelab part 1: the history"
