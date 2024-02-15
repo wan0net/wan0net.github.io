@@ -231,6 +231,8 @@ _I got bored_
 
 _Side Note: If you didn't know, my dog is called Zero. I have a thing for Nightmare before Christmas. It definitely doesn't show._
 
+_Side Side Note: In between publishing this post, and the next one, I've made changes. They will be detailed further in the next post on hardware choices_
+
 - 1 x NAS - Synology 3617xs+
   - Xeon-D 1521
   - 48Gb DDR3 SODIMM
@@ -238,7 +240,7 @@ _Side Note: If you didn't know, my dog is called Zero. I have a thing for Nightm
   - 10GBe Card
 - 1 x Disk Array - Synology DX1215
   - 10 x 10TB Seagate Ironwolf HDD in RAID6  
-  - 2 x 500GB WD Green SSD in RAID1
+  - ~~2 x 500GB WD Green SSD in RAID1~~ 2 x 4TB PNY CS900 SSD in RAID1
 - 1 x OPNSense Gateway - Lenovo ThinkStation M720q 
   - Intel Pentium G5400T
   - 16Gb DDR4 RAM
@@ -246,9 +248,15 @@ _Side Note: If you didn't know, my dog is called Zero. I have a thing for Nightm
   - 4 x 2.5 Gbe Network Card (Intel i225-v3)
 - 3 x Compute Host - Lenovo ThinkStation M920q
   - Intel i5 8500T
-  - 64Gb DDR4 RAM
+  - 48Gb DDR4 RAM
   - 256Gb NVMe SSD
   - 500Gb WD Green SATA SSD
+  - 2.5Gbe USB Ethernet Adapter
+- 3 x Compute Host - HP Elitedesk 800 G4 _New addition since publish_
+  - Intel i5 8500T
+  - 48Gb DDR4 RAM
+  - 256Gb NVMe SSD
+  - 500Gb NVMe SSD
   - 2.5Gbe USB Ethernet Adapter
 - 1 x Services Host - Lenovo ThinkStation M910q
   - Intel i5 7500T
@@ -267,4 +275,4 @@ I can’t promise this will stay this way for long - I’m looking at swapping t
 
 The Asus XT8 is now only doing duty as a WiFi mesh AP and only for my "prod" network. Due to funkiness with the Asus firmware (they don't *actually* support VLANs unless you buy a newer model), I had to offload my IOT network to one of the nanoHD I had lying around, although I installed [OpenWRT](https://openwrt.org/) on it.
 
-The services host is my attempt at having a "prod" versus "dev": "prod" is made up of the docker containers on the NAS and the services host and will be anything that needs to be "on" permanently - Plex, [Vault](https://www.vaultproject.io/), [InfluxDB](https://www.influxdata.com/), all of that. The Compute Host cluster is an entirely destroyable and rebuildable system for me to evaluate products and services like [Istio](https://istio.io/), [Elastic](elastic.co) and its agent, and [MISP](https://www.misp-project.org/). The NAS will provide storage to all of it, and I'm currently looking at replacing the 2 x 500GB SSD drives with something a little larger to enable either iSCSI or SMB to the Kubernetes cluster for persistent storage.
+The services host is my attempt at having a "prod" versus "dev": "prod" is made up of the docker containers on the NAS and the services host and will be anything that needs to be "on" permanently - Plex, [Vault](https://www.vaultproject.io/), [InfluxDB](https://www.influxdata.com/), all of that. The Compute Host cluster is an entirely destroyable and rebuildable system for me to evaluate products and services like [Istio](https://istio.io/), [Elastic](elastic.co) and its agent, and [MISP](https://www.misp-project.org/). The NAS will provide storage to all of it, ~~and I'm currently looking at replacing the 2 x 500GB SSD drives  with something a little larger to enable either iSCSI or SMB~~ and I now have 2 x 4TB Drives in RAID1 to provide SMB storage to Proxmox and the Kubernetes cluster for persistent storage.
