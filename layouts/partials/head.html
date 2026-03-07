@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
   <script>
     const t = localStorage.getItem('theme');
-    document.documentElement.dataset.theme = t === 'dark' ? 'dark' : 'light';
+    document.documentElement.dataset.theme = t === 'light' ? 'light' : 'dark';
   </script>
   {{ if .IsHome }}
   <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ "index.xml" | absURL }}">
