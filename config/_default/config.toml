@@ -5,7 +5,8 @@
 baseURL = "https://wan0.net/"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
-paginate = 10
+[pagination]
+  pagerSize = 10
 summaryLength = 0
 
 [outputs]
