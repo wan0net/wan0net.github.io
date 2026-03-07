@@ -1,0 +1,47 @@
+name: Sync from Notion
+
+on:
+  schedule:
+    # Run every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r _scripts/requirements.txt
+
+      - name: Run Notion sync
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_BLOG_DB_ID: ${{ secrets.NOTION_BLOG_DB_ID }}
+          NOTION_PAGES: ${{ secrets.NOTION_PAGES }}
+        run: python _scripts/notion_sync.py
+
+      - name: Commit and push if changes
+        env:
+          # Use a PAT so the push triggers the Hugo deploy workflow.
+          # The default GITHUB_TOKEN does NOT trigger other workflows.
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          git config user.name "Notion Sync Bot"
+          git config user.email "noreply@wan0.net"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "sync: update content from Notion"
+            git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${REPO}.git"
+            git push
+          fi

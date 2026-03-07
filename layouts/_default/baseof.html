@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}" data-theme="light">
+{{ partial "head.html" . }}
+<body>
+  <div class="page">
+    {{ partial "header.html" . }}
+    <main class="main">
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{ partial "footer.html" . }}
+  </div>
+  <script>
+    function toggleTheme() {
+      const html = document.documentElement;
+      const next = html.dataset.theme === 'dark' ? 'light' : 'dark';
+      html.dataset.theme = next;
+      localStorage.setItem('theme', next);
+      updateToggle();
+    }
+    function updateToggle() {
+      const btn = document.getElementById('themeBtn');
+      if (btn) btn.textContent = document.documentElement.dataset.theme === 'dark' ? '\u2600' : '\u263E';
+    }
+    updateToggle();
+    document.getElementById('navToggle')?.addEventListener('click', function() {
+      document.getElementById('siteNav')?.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>

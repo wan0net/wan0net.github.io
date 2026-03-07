@@ -1,0 +1,33 @@
+{{ define "main" }}
+<div class="blog-list">
+  <h1>Blog</h1>
+  <p class="blog-list-sub">Thoughts on cyber security, homelabs, and whatever else comes to mind.</p>
+  {{ $pages := where .Pages "Draft" false }}
+  {{ range $pages.GroupByDate "2006" }}
+  <div class="year-group">
+    <div class="year-label">{{ .Key }}</div>
+    {{ range .Pages }}
+    {{ $preview := .Params.preview }}
+    {{ $page := . }}
+    <a href="{{ .RelPermalink }}" class="post-card{{ if $preview }} has-img{{ end }}">
+      {{ with $preview }}
+        {{ $img := $page.Resources.GetMatch . }}
+        {{ if $img }}
+        <img src="{{ $img.RelPermalink }}" alt="" class="post-card-img">
+        {{ end }}
+      {{ end }}
+      <div class="post-card-body">
+        <div class="post-card-title">{{ .Title }}</div>
+        <div class="post-card-meta">
+          {{ .Date.Format "2 January 2006" }} &middot; {{ .ReadingTime }} min read
+        </div>
+        {{ with .Description }}
+        <div class="post-card-desc">{{ . }}</div>
+        {{ end }}
+      </div>
+    </a>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>
+{{ end }}

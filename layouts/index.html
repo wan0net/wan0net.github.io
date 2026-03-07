@@ -1,0 +1,47 @@
+{{ define "main" }}
+<section class="profile">
+  {{ with .Site.Params.author }}
+    {{ with .image }}
+      {{ $img := resources.Get . }}
+      {{ if $img }}
+      <img src="{{ $img.RelPermalink }}" alt="{{ $.Site.Params.author.name }}" class="profile-img">
+      {{ end }}
+    {{ end }}
+    <h1 class="profile-name">{{ .name }}</h1>
+    {{ with .handle }}
+    <div class="profile-handle">@{{ . }}</div>
+    {{ end }}
+    {{ with .headline }}
+    <p class="profile-tagline">{{ . }}</p>
+    {{ end }}
+  {{ end }}
+  {{ partial "social-icons.html" . }}
+</section>
+
+<section class="recent">
+  <div class="section-title">Recent posts</div>
+  {{ $posts := where (where .Site.RegularPages "Section" "posts") ".Draft" false }}
+  {{ range first 5 $posts.ByDate.Reverse }}
+  {{ $preview := .Params.preview }}
+  {{ $page := . }}
+  <a href="{{ .RelPermalink }}" class="post-card{{ if $preview }} has-img{{ end }}">
+    {{ with $preview }}
+      {{ $img := $page.Resources.GetMatch . }}
+      {{ if $img }}
+      <img src="{{ $img.RelPermalink }}" alt="" class="post-card-img">
+      {{ end }}
+    {{ end }}
+    <div class="post-card-body">
+      <div class="post-card-title">{{ .Title }}</div>
+      <div class="post-card-meta">
+        {{ .Date.Format "2 January 2006" }} &middot; {{ .ReadingTime }} min read
+      </div>
+      {{ with .Description }}
+      <div class="post-card-desc">{{ . }}</div>
+      {{ end }}
+    </div>
+  </a>
+  {{ end }}
+  <a href="/posts/" class="view-all">View all posts &rarr;</a>
+</section>
+{{ end }}

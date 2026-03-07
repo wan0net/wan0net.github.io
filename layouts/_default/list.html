@@ -1,0 +1,48 @@
+{{ define "main" }}
+<div class="blog-list">
+  <h1>{{ .Title }}</h1>
+  {{ if eq .Kind "taxonomy" }}
+    {{/* Taxonomy terms page (e.g., /categories/) */}}
+    <p class="blog-list-sub">All {{ .Title | lower }}</p>
+    <div class="tax-list">
+      {{ range .Pages }}
+      <a href="{{ .RelPermalink }}" class="tax-chip">
+        {{ .Title }}
+        <span class="tax-count">{{ len .Pages }}</span>
+      </a>
+      {{ end }}
+    </div>
+  {{ else if eq .Kind "term" }}
+    {{/* Single taxonomy term page (e.g., /categories/homelab/) */}}
+    <p class="blog-list-sub">Posts tagged &ldquo;{{ .Title }}&rdquo;</p>
+    {{ range .Pages.ByDate.Reverse }}
+      {{ if not .Draft }}
+      <a href="{{ .RelPermalink }}" class="post-card">
+        <div class="post-card-title">{{ .Title }}</div>
+        <div class="post-card-meta">
+          {{ .Date.Format "2 January 2006" }} &middot; {{ .ReadingTime }} min read
+        </div>
+        {{ with .Description }}
+        <div class="post-card-desc">{{ . }}</div>
+        {{ end }}
+      </a>
+      {{ end }}
+    {{ end }}
+  {{ else }}
+    {{/* Section list fallback */}}
+    {{ range .Pages.ByDate.Reverse }}
+      {{ if not .Draft }}
+      <a href="{{ .RelPermalink }}" class="post-card">
+        <div class="post-card-title">{{ .Title }}</div>
+        <div class="post-card-meta">
+          {{ .Date.Format "2 January 2006" }} &middot; {{ .ReadingTime }} min read
+        </div>
+        {{ with .Description }}
+        <div class="post-card-desc">{{ . }}</div>
+        {{ end }}
+      </a>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</div>
+{{ end }}

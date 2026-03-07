@@ -1,0 +1,12 @@
+{{ $url := .Get "url" }}
+{{ $resource := .Page.Resources.GetMatch $url }}
+{{ if $resource }}
+<div class="pdf-embed">
+  <iframe src="{{ $resource.RelPermalink }}" loading="lazy" title="{{ $url }}"></iframe>
+  <a href="{{ $resource.RelPermalink }}" class="pdf-fallback" target="_blank" rel="noopener">Download PDF &darr;</a>
+</div>
+{{ else }}
+<div class="pdf-embed">
+  <p style="color: var(--text-dim); font-size: 13px;">PDF not found: {{ $url }}</p>
+</div>
+{{ end }}

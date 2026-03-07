@@ -1,7 +1,6 @@
 ---
-title: 'stack'
-date: 2024-01-13
-preview: ""
+title: "Stack"
+date: 2026-03-07
 draft: false
 layout: "page"
 showAuthor: false
@@ -14,23 +13,27 @@ showReadingTime: false
 ---
 
 ## my use case
+
 So I primarily have three use cases for computing at home. Gaming, Projects, and just general life.
+
 ### gaming
+
 ### projects
+
 ### life
 
 ## this site
-- Hugo
-- Congo theme for Hugo
-- GitHub Pages
 
+- Hugo
+- Custom theme
+- GitHub Pages
 ## apps
 
 ### all
+
 - Proton Mail
 - Google Chrome
 - Notion
-- 
 ---
 
 ### web
@@ -38,19 +41,22 @@ So I primarily have three use cases for computing at home. Gaming, Projects, and
 ---
 
 ### mobile
-- Secure Shellfish
 
+- Secure Shellfish
 ---
 
 ### thick
+
 - chocolatey
 - Visual Studio Code
-
 ---
 
 ## desktop
-![](desktop.jpg)
+
+![](img-fa2bebd52165.jpg)
+
 ### specs
+
 - AMD Ryzen 7 5700x CPU
 - Asrock X570 Steel Legend WiFi ax Motherboard
 - Corsair Vengeance LP 64Gb RAM
@@ -60,10 +66,10 @@ So I primarily have three use cases for computing at home. Gaming, Projects, and
 - Corsair CX750 750w PSU
 - USB Controller Cards
 - Lian Li O11 Dynamic Evo Case
-
 ---
 
 ### desk
+
 - IKEA Bekant Sit-Stand Desk
 - LG 49" Ultrawide LC49RG90SSEXXY Monitor
 - Viewsonic 27" QHD VA2719-2K-SMHD Monitor
@@ -77,39 +83,40 @@ So I primarily have three use cases for computing at home. Gaming, Projects, and
 - Logitech G502 Lightspeed Mouse
 - Logitech G512 (Blue) Keyboard
 - XBOX One Series Controller
-
 ---
 
 ## tablet
+
 ### iPad Pro 12.9-inch 5th Generation 512Gb
+
 - iPad Pencil 2
 - Logitech Combo Touch Case
-
 ---
 
 ## phone
+
 ### iPhone 13 Pro Max 256Gb
-- dBrand “Glitch Camo” Skin
+
+- dBrand "Glitch Camo" Skin
 - dBrand Grip Case
 - Apple AirPods Pro 2
-  
 ---
 
 ## steam deck
-- dBrand “Glitch Camo” Skin
+
+- dBrand "Glitch Camo" Skin
 - dBrand Killswitch Case
 - Western Digital 512Gb SSD
 - Samsung 512Gb microSD
 - Gulikit Hall Effect Joysticks
+---
 
-——-
+## consoles
 
-## consoles 
 - Nintendo Switch
 - Nintendo Wii
 - Sony Playstation 5
 - Sony Playstation 3
-
 ---
 
 ## 3d printers
@@ -117,10 +124,10 @@ So I primarily have three use cases for computing at home. Gaming, Projects, and
 ---
 
 ### Creality Ender 3v2
+
 - Creality Sprite Pro Extruder
 - CRTouch
 - PEI Bed
-
 ---
 
 ### Anycubic Photon Mono

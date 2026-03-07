@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="page-content">
+  <h1 class="page-title">{{ .Title }}</h1>
+  {{ if .Params.showTableOfContents }}
+  <div class="toc">
+    <div class="toc-title">Contents</div>
+    {{ .TableOfContents }}
+  </div>
+  {{ end }}
+  <div class="content">
+    {{ .Content }}
+  </div>
+</div>
+{{ end }}

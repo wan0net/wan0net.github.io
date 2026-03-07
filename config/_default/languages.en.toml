@@ -4,25 +4,3 @@ languageDirection = "ltr"
 weight = 1
 
 title = "@wan0net"
-# copyright = "Copy, _right?_ :thinking_face:"
-
-[params]
-  dateFormat = "2 January 2006"
-
-  # mainSections = ["section1", "section2"]
-  # description = "My awesome website"
-
-[author]
-   name = "Iain Dickson"
-   image = "img/author.jpg"
-   headline = "I didn't do it. Nobody saw me do it. You can't prove anything."
-   bio = ""
-   links = [
-     { email = "mailto:icd@wan0.net" },
-     { linkedin = "https://linkedin.com/in/wan0net" },
-     { x-twitter = "https://twitter.com/wan0net" },
-     { github = "https://github.com/wan0net" },
-     { discord = "https://discord.gg/xCkgjmGzTr" },
-     { steam = "https://steamcommunity.com/id/wan0net/" },
-     { ko-fi = "https://ko-fi.com/wan0net"},
-   ]

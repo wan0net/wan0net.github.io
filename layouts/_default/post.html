@@ -1,0 +1,43 @@
+{{ define "main" }}
+<article class="article">
+  <div class="article-header">
+    <h1 class="article-title">{{ .Title }}</h1>
+    <div class="article-meta">
+      <span>{{ .Date.Format "2 January 2006" }}</span>
+      <span>&middot; {{ .ReadingTime }} min read</span>
+      {{ with .Site.Params.author.name }}
+      <span>&middot; {{ . }}</span>
+      {{ end }}
+    </div>
+  </div>
+  {{ with .Params.preview }}
+    {{ $img := $.Resources.GetMatch . }}
+    {{ if $img }}
+    <img src="{{ $img.RelPermalink }}" alt="" class="article-cover">
+    {{ end }}
+  {{ end }}
+  {{ if .Params.showTableOfContents }}
+  <div class="toc">
+    <div class="toc-title">Contents</div>
+    {{ .TableOfContents }}
+  </div>
+  {{ end }}
+  <div class="content">
+    {{ .Content }}
+  </div>
+  <div class="pagination">
+    {{ with .PrevInSection }}
+    <a href="{{ .RelPermalink }}">
+      <span class="prev-label">&larr; Previous</span>
+      {{ .Title }}
+    </a>
+    {{ end }}
+    {{ with .NextInSection }}
+    <a href="{{ .RelPermalink }}" style="margin-left: auto; text-align: right;">
+      <span class="next-label">Next &rarr;</span>
+      {{ .Title }}
+    </a>
+    {{ end }}
+  </div>
+</article>
+{{ end }}
