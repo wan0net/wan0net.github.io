@@ -201,7 +201,11 @@ def blocks_to_markdown(notion, block_id, page_dir, depth=0):
             icon = bdata.get("icon") or {}
             emoji = icon.get("emoji", "") if icon.get("type") == "emoji" else ""
             text = rich_text_to_md(bdata.get("rich_text", []))
-            lines.append(f"> {emoji} {text}")
+            # Special pill rendering for tagged callouts
+            if emoji == "🤖" and text.strip().lower().startswith("ai generated"):
+                lines.append('<span class="pill pill-ai">🤖 AI Generated</span>')
+            else:
+                lines.append(f"> {emoji} {text}")
             lines.append("")
 
         elif btype == "divider":

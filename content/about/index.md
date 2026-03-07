@@ -14,13 +14,23 @@ showReadingTime: false
 
 I live in Canberra with two dogs, and spends my day working hard to keep them in the manner to which they've become accustomed.
 
-![](img-5236009f081d.jpg)
+![](img-2166d7dfdb37.jpg)
 
 ## the official biography
 
 Iain is the Full Spectrum Cyber Practice Lead for a large multinational, and provides oversight and support to all of its programs for technical cyber security. He has worked across a number of critical federal government programs, including delivering security operations capabilities, large enterprise scale software systems, a breadth of other enterprise IT services and more recently secure military platforms. He has previously worked as a Cyber Research Engineer and as an Assistant Director for Cyber Threat Intelligence within the Department of Defence. He is also one of the founders of ComfyCon AU, a virtual conference founded as a direct response to the cancellation of cyber security conferences due to the COVID-19 pandemic.
 
 ## the unofficial biography
+
+<span class="pill pill-ai">🤖 AI Generated</span>
+
+Iain is a mass of red hair, mass-produced energy drinks, and unsolicited opinions about network segmentation. Originally imported from the United Kingdom, he quickly voided his warranty by installing Gentoo on a laptop with broken hinges and a 12GB monthly bandwidth cap.
+
+By day, he tells very important people that their very important systems have very important problems. By night, he maintains a homelab that has gone through more iterations than a software sprint and draws roughly the same amount of power as a small suburb.
+
+He co-founded ComfyCon AU, a virtual cyber security conference born from jetlag, a tweet, and the complete inability to sit still during a global pandemic. He has since been told he is no longer allowed to post bright ideas on Twitter.
+
+He lives in Canberra with two dogs who know that chewing the purple cable near the living room will summon their father from his office within seconds.
 
 ## presentations and publications
 

@@ -417,6 +417,24 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   margin-bottom: 32px;
 }
 
+/* ── Pills / tags ── */
+.pill {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--bg-subtle);
+  color: var(--text-dim);
+  margin-bottom: 8px;
+}
+.pill-ai {
+  border-color: color-mix(in srgb, var(--link) 30%, transparent);
+  background: color-mix(in srgb, var(--link) 8%, var(--bg));
+  color: var(--link);
+}
+
 /* ── Table of contents ── */
 .toc {
   margin-bottom: 40px;
