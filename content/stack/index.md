@@ -1,6 +1,6 @@
 ---
 title: "Stack"
-date: 2026-03-08
+date: 2026-03-09
 draft: false
 layout: "page"
 showAuthor: false
