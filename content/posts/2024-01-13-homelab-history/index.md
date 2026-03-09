@@ -6,8 +6,8 @@ draft: false
 layout: "post"
 slug: "homelab-history"
 categories: ["homelab"]
-preview: img-12822250d6fd.png
-feature: img-12822250d6fd.png
+preview: img-a24af44fd32c.png
+feature: img-a24af44fd32c.png
 ---
 
 *Side Note: This post got away with me. I hope you find it enjoyable, and I'll try to break up future ones into smaller pieces.*
@@ -36,7 +36,7 @@ This all happened pre-me having a dedicated "lab" compared to my normal "prod", 
 
 ## homelab v1: eeePC + external drives (2010)
 
-![](img-299e7926dfcd.jpg)
+![](img-618ea68b1a84.jpg)
 
 >  *The aforementioned Acer Travelmate compared to the Asus eeePC*
 
@@ -53,7 +53,7 @@ While a slow start, this was the bug that bit me.
 
 ## homelab v2: the microserver and the whitebox (2013)
 
-![](img-bea895934f9a.jpg)
+![](img-399111d9e4aa.jpg)
 
 >  *The glory that is the HP N54L Microserver*
 
@@ -75,7 +75,7 @@ Speaking of networking, at this house, I ran a dual RJ45 cable from the below-th
 
 ## homelab v3: custom built nodes (2016)
 
-![](img-a59b1ff32bb6.jpg)
+![](img-7d53c8da4480.jpg)
 
 >  *My dining room table has a history of being used to assemble networks.*
 
@@ -102,11 +102,11 @@ I started running an actual "cluster" of VMware at home. I ran several applicati
 
 *Side History: when stuck in that hotel for six months, I bought a router from an Optus subsidiary VividWireless, who provided a 4G connection at 10Mbit for $89 a month. I bought a projector and used a wall of my hotel room to play TV through my XBOX One S (which I'd brought in my luggage), which connected back to Plex, running on my NAS in Adelaide at my parents. Good times...*
 
-![](img-d2e0c19de885.jpg)
+![](img-b37e61711976.jpg)
 
 ## homelab v4: the allbids special (2018)
 
-![](img-82796953ea40.jpg)
+![](img-5ebfff4776d1.jpg)
 
 *Side Note: There is a bug if you view this on Chrome; it's left-oriented - this is an EXIF bug in Chrome, but trying to find an app that will physically rotate an image is a pain. When I work it out, I'll fix this!*
 
@@ -139,7 +139,7 @@ Eventually, I got all the boxes consistently built and then... I didn't really d
 
 ## homelab v5: the initial hit of ubiquiti (2019)
 
-![](img-2fa8d322bf03.jpg)
+![](img-961561c2fadd.jpg)
 
 >  *Can you tell I was earning big cyber bucks by this point?*
 
@@ -166,7 +166,7 @@ I'd started working as a Cyber Tech Lead, and so I used this on and off for proj
 
 ## homelab v6: full on ubiquiti madness (2020)
 
-![](img-92e6a22e0636.jpg)
+![](img-6d33291d1d1e.jpg)
 
 >  *My credit card was not happy*
 
@@ -189,15 +189,15 @@ The first year of the COVID pandemic, we moved into a much larger 4 bedroom hous
 
 *Side History: The friend who was a Ubiquiti reseller became a meme between a few of us, as everyone was waiting for our Unifi Dream Machine Pros (I bought mine separately as I got a good deal with a few other bits and pieces). Such amazing work included the following:*
 
-![](img-4a7ceee1e4fd.png)
+![](img-e9518a085e9e.png)
 
-![](img-5c61a0180373.png)
+![](img-2aea24af6e51.png)
 
-![](img-14b9a653db5f.png)
+![](img-5ad0de92ae1e.png)
 
 All of this equipment was placed within the find of the century: a 24RU Sound Resistant Server Rack that I bought for 100 bucks from someone in Sydney. I was utterly gobsmacked to find it, and all it took was me going down with a trailer one day to pick it up and bring it back.
 
-![](img-5b296e57ab59.png)
+![](img-a4dc31b499c1.png)
 
 I started to experiment with the automation of my homelab. I learnt about [Packer](https://www.packer.io/), [Terraform](https://www.terraform.io/) and refined my [Ansible](https://www.ansible.com/) skills, which I'd had to learn already at work. I could build a VM, deploy it on the ESXi node, and configure it easily.
 
@@ -231,7 +231,7 @@ Life got far too busy for me to do things. I had two dogs who lived with me, I w
 
 ## homelab v8: the golden age (2023)
 
-![](img-35f883e17c8f.png)
+![](img-6f7367545602.png)
 
 >  *I got bored*
 
