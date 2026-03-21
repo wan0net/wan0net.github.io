@@ -20,7 +20,7 @@ A collection of software projects I'm building or maintaining. Screenshots and d
   name="Flare Journal"
   image="flare-journal.png"
   description="Privacy-first iOS app for tracking autoimmune disease activity. Computes validated clinical scores (CDAI, HBI, BASDAI) from daily symptom logs with longitudinal charting and severity visualisation. All data stays on-device with iCloud sync."
-  url="https://wan0net.github.io/flare-privacy/"
+  url="https://flare.wan0.net"
   tech="Swift, SwiftUI, SwiftData, Swift Charts"
   status="Active"
 >}}
