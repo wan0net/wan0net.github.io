@@ -14,6 +14,17 @@ showReadingTime: false
 
 A collection of software projects I'm building or maintaining. Screenshots and details below — source code is on [GitHub](https://github.com/wan0net).
 
+## mobile
+
+{{< project
+  name="Flare Journal"
+  image="flare-journal.png"
+  description="Privacy-first iOS app for tracking autoimmune disease activity. Computes validated clinical scores (CDAI, HBI, BASDAI) from daily symptom logs with longitudinal charting and severity visualisation. All data stays on-device with iCloud sync."
+  url="https://wan0net.github.io/flare-privacy/"
+  tech="Swift, SwiftUI, SwiftData, Swift Charts"
+  status="Active"
+>}}
+
 ## embedded & hardware
 
 {{< project
@@ -51,17 +62,6 @@ A collection of software projects I'm building or maintaining. Screenshots and d
   description="Custom Home Assistant integration to browse and select recipes from a Notion database, with a gallery-style Lovelace card."
   github="https://github.com/wan0net/homeassistant-notion-recipes"
   tech="Python, Home Assistant, Notion API"
-  status="Active"
->}}
-
-## mobile
-
-{{< project
-  name="Flare Journal"
-  image="flare-journal.png"
-  description="Privacy-first iOS app for tracking autoimmune disease activity. Computes validated clinical scores (CDAI, HBI, BASDAI) from daily symptom logs with longitudinal charting and severity visualisation. All data stays on-device with iCloud sync."
-  url="https://wan0net.github.io/flare-privacy/"
-  tech="Swift, SwiftUI, SwiftData, Swift Charts"
   status="Active"
 >}}
 
