@@ -1,0 +1,31 @@
+<div class="project-card">
+  {{ if .Get "image" }}
+  <div class="project-card-img-wrap">
+    <img src="{{ .Get "image" }}" alt="{{ .Get "name" }}" class="project-card-img" loading="lazy" />
+  </div>
+  {{ end }}
+  <div class="project-card-body">
+    <div class="project-card-header">
+      <h3 class="project-card-name">{{ .Get "name" }}</h3>
+      {{ with .Get "status" }}
+      <span class="project-card-status project-card-status--{{ . | urlize }}">{{ . }}</span>
+      {{ end }}
+    </div>
+    <p class="project-card-desc">{{ .Get "description" }}</p>
+    {{ with .Get "tech" }}
+    <div class="project-card-tech">
+      {{ range split . ", " }}
+      <span class="project-card-tag">{{ . }}</span>
+      {{ end }}
+    </div>
+    {{ end }}
+    <div class="project-card-links">
+      {{ with .Get "github" }}
+      <a href="{{ . }}" class="project-card-link" target="_blank" rel="noopener">GitHub &rarr;</a>
+      {{ end }}
+      {{ with .Get "url" }}
+      <a href="{{ . }}" class="project-card-link" target="_blank" rel="noopener">Live &rarr;</a>
+      {{ end }}
+    </div>
+  </div>
+</div>
