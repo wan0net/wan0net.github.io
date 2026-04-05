@@ -6,8 +6,8 @@ draft: false
 layout: "post"
 slug: "homelab-secrets"
 categories: ["homelab"]
-preview: img-dc91c7a31548.png
-feature: img-dc91c7a31548.png
+preview: img-c4610b0c27a4.png
+feature: img-c4610b0c27a4.png
 ---
 
 This is being written as the first post for the homelab series. In this, I describe the creation of my docker-compose files, and the management of secrets within this.
