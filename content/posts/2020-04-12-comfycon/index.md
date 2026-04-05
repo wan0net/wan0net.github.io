@@ -6,8 +6,8 @@ draft: false
 layout: "post"
 slug: "comfycon"
 categories: ["conference"]
-preview: img-f53c889a4b27.png
-feature: img-f53c889a4b27.png
+preview: img-4a15c8433dab.png
+feature: img-4a15c8433dab.png
 ---
 
 It's less than 24 hours after we finished, but all of these thoughts are running through my mind. I wanted to capture them before we lost them.
@@ -20,7 +20,7 @@ He was supposed to go to Brisbane 2 days later to present at a conference, but t
 
 So this tweet happened:
 
-![](img-2456488b9b65.png)
+![](img-2d13f0b51d45.png)
 
 >  *I've since been told I'm not allowed to post bright ideas on Twitter anymore.*
 
@@ -28,7 +28,7 @@ And that started it all.
 
 Less than 12 hours later, ComfyCon AU had a logo, an organisational team with mentors, a RedBubble store for merch, a website, and an EOI for speakers. Also this:
 
-![](img-19d030535063.png)
+![](img-dc9c5e55f20c.png)
 
 >  *It later turned out I was INCREDIBLY jetlagged.*
 
@@ -54,7 +54,7 @@ We had decided to run a conference in 3 weeks on a shoestring budget, with all o
 
 I think we made the decision on the 18th or 19th that we were going to use Zoom, and we were going to output the feed from Zoom to YouTube and Twitch. Zoom had seemed to have held up more than Webex (this is my personal opinion) over the past week or so before that when all businesses had started moving to working-from-home arrangements. There had been some security issues identified with Zoom, but (as risk based cyber professionals), we believed they posed low risk to our speakers and attendees. We also had no issues at all with capacity management going down this path, I mean, what is the likelihood of YouTube going down?
 
-![](img-01ba054b34b3.png)
+![](img-f59f305d87db.png)
 
 >  *Accurate limit to the conference*
 
@@ -84,7 +84,7 @@ Somewhat on the same theme as "We don't want people's money", was "We don't want
 
 Another issue in some of our messaging that we rectified was around our focus on Australian and New Zealand speakers. We were based in AEST, UTC+10, and we wanted to host the stream during that time period. We knew we wanted to make it easy for not only Western Australians, but also New Zealanders to participate, and that drove the 1200 AEST start time. But who could watch?
 
-![](img-7f87e2148ffb.png)
+![](img-bbe974d0c800.png)
 
 Anyone. We wanted to host a virtual conference that anyone could come to. There was no cost, all you needed was an internet connection. We wanted to show off Australian and New Zealand cyber talent to the world, and anyone could come and watch. And I think that worked.
 
