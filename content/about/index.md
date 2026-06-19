@@ -14,7 +14,7 @@ showReadingTime: false
 
 I live in Canberra with two dogs, and spends my day working hard to keep them in the manner to which they've become accustomed.
 
-![](img-a8dcb1b8cb47.jpg)
+![](img-b2ace354ba06.jpg)
 
 ## the official biography
 
