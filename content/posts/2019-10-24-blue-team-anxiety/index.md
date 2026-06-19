@@ -6,8 +6,8 @@ draft: false
 layout: "post"
 slug: "blue-team-anxiety"
 categories: ["cyber"]
-preview: img-aa6f64bfc652.gif
-feature: img-aa6f64bfc652.gif
+preview: img-dde132b1ca98.gif
+feature: img-dde132b1ca98.gif
 ---
 
 I'm just going to come out and say it. I'm a blue team cyber security professional, and I get anxious. It's taken me a while to get to the point to be able to say that, rather than I "suffer" anxiety.
