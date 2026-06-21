@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2026-06-20
+date: 2026-06-21
 draft: false
 layout: "page"
 showAuthor: false
@@ -14,7 +14,7 @@ showReadingTime: false
 
 I live in Canberra with two dogs, and spends my day working hard to keep them in the manner to which they've become accustomed.
 
-![](img-5e2825ff28c8.jpg)
+![](img-ba3128e1ab52.jpg)
 
 ## the official biography
 
