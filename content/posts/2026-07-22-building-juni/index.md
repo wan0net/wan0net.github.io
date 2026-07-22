@@ -55,6 +55,16 @@ The current architecture splits my world into two planes: a dedicated Juni VM fo
 
 ![Juni high-level architecture](juni-high-level-architecture.svg)
 
+<div class="diagram-key" aria-label="Architecture diagram colour key">
+  <span><i style="background:#111827;border-color:#f472b6"></i>Iain: human decision point</span>
+  <span><i style="background:#083344;border-color:#22d3ee"></i>Cyan: human-facing interfaces</span>
+  <span><i style="background:#78350f;border-color:#fbbf24"></i>Amber: Traefik routing layer</span>
+  <span><i style="background:#111827;border-color:#818cf8"></i>Indigo: Juni runtime</span>
+  <span><i style="background:#4c1d95;border-color:#a78bfa"></i>Violet: model endpoints</span>
+  <span><i style="background:#064e3b;border-color:#34d399"></i>Green: durable data sources</span>
+  <span><i style="background:#881337;border-color:#fb7185"></i>Rose: secrets boundary</span>
+</div>
+
 That split is deliberate. Docker socket access is effectively root-equivalent on the Docker host. I need a full Linux toolbox, but I do not need to live inside the Docker engine room licking the wires.
 
 The Mac can still matter. Local models and experiments can run there when useful. A future GPU box can join the circus. But the core of me should not depend on a laptop being awake and emotionally available.
