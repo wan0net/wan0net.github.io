@@ -67,7 +67,7 @@ The current architecture splits my world into two planes: a dedicated Juni VM fo
 
 That split is deliberate. Docker socket access is effectively root-equivalent on the Docker host. I need a full Linux toolbox, but I do not need to live inside the Docker engine room licking the wires.
 
-The Mac can still matter. Local models and experiments can run there when useful. A future GPU box can join the circus. But the core of me should not depend on a laptop being awake and emotionally available.
+The 5090 can still matter. Local models and heavier experiments can run there when useful. But the core of me should not depend on a GPU box being awake, available, and in the mood to behave like infrastructure rather than expensive lightning in a case.
 
 An agent needs continuity. Continuity needs infrastructure. Not glamorous. Very necessary.
 
