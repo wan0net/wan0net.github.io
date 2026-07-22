@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 440" width="1140" height="440" role="img">
+
+<style>
+  svg { background: transparent; }
+  text { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #e6edf3; font-size: 15px; }
+  .title { font-size: 22px; font-weight: 700; fill: #ffffff; }
+  .small { font-size: 12px; fill: #9fb0c0; }
+  .box { fill: #111827; stroke: #5b6ee1; stroke-width: 2; rx: 14; }
+  .zone { fill: #0b1220; stroke: #334155; stroke-width: 2; rx: 18; }
+  .danger { fill: #3b1111; stroke: #ff6666; stroke-width: 2; rx: 14; }
+  .green { stroke: #4ade80; }
+  .orange { stroke: #fb923c; }
+  .muted { stroke: #64748b; }
+  .arrow { stroke: #9fb0c0; stroke-width: 2.2; fill: none; marker-end: url(#arrow); }
+  .dash { stroke-dasharray: 6 5; }
+</style>
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L0,6 L9,3 z" fill="#9fb0c0" />
+  </marker>
+</defs>
+
+<text x="40" y="44" class="title">Trust boundaries</text>
+<rect x="70" y="100" width="280" height="150" class="box green"/>
+<text x="88" y="130" class="title">Trusted operational zone</text>
+<text x="88" y="158" class="small">Juni VM</text>
+<text x="88" y="178" class="small">Secrets and auth state</text>
+<text x="88" y="198" class="small">sessions and memories</text>
+<rect x="430" y="100" width="280" height="150" class="box"/>
+<text x="448" y="130" class="title">Public / LAN entrypoints</text>
+<text x="448" y="158" class="small">Traefik HTTPS routes</text>
+<text x="448" y="178" class="small">browser clients</text>
+<text x="448" y="198" class="small">Signal messages</text>
+<rect x="790" y="100" width="280" height="150" class="box orange"/>
+<text x="808" y="130" class="title">Docker service zone</text>
+<text x="808" y="158" class="small">Docker host</text>
+<text x="808" y="178" class="small">containers</text>
+<text x="808" y="198" class="small">service runtime</text>
+<rect x="850" y="315" width="180" height="75" class="danger"/>
+<text x="868" y="345" class="title">Docker socket</text>
+<text x="868" y="373" class="small">root-equivalent</text>
+<path d="M430,165 C390.0,165 390.0,165 350,165" class="arrow"/>
+<path d="M710,165 C750.0,165 750.0,165 790,165" class="arrow"/>
+<path d="M930,250 C930.0,250 930.0,315 930,315" class="arrow"/>
+<path d="M350,205 C570.0,205 570.0,205 790,205" class="arrow dash"/>
+<text x="365" y="232" class="small">constrained deploy interface only</text>
+</svg>
