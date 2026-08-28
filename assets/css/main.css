@@ -19,6 +19,9 @@
   --green: #16a34a;
   --green-bg: #f0fdf4;
   --green-border: #bbf7d0;
+  --amber: #b45309;
+  --amber-bg: #fffbeb;
+  --amber-border: #fde68a;
   --shadow-sm: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
   --shadow-md: 0 4px 12px rgba(0,0,0,0.06), 0 2px 4px rgba(0,0,0,0.04);
 }
@@ -41,6 +44,9 @@
   --green: #22c55e;
   --green-bg: #14291e;
   --green-border: #166534;
+  --amber: #fbbf24;
+  --amber-bg: #33270f;
+  --amber-border: #92400e;
   --shadow-sm: 0 1px 3px rgba(0,0,0,0.3);
   --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
 }
@@ -768,6 +774,8 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 
 .project-card-body {
+  flex: 1;
+  min-width: 0;
   padding: 20px;
 }
 
@@ -797,16 +805,28 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   flex-shrink: 0;
 }
 
-.project-card-status--active {
+.project-card-status--active,
+.project-card-status--live {
   color: var(--green);
   background: var(--green-bg);
   border: 1px solid var(--green-border);
 }
 
-.project-card-status--maintained {
+.project-card-status--maintained,
+.project-card-status--reference {
   color: var(--accent);
   background: var(--accent-bg);
   border: 1px solid var(--accent-border);
+}
+
+.project-card-status--alpha,
+.project-card-status--beta,
+.project-card-status--public-beta,
+.project-card-status--coming-soon,
+.project-card-status--in-development {
+  color: var(--amber);
+  background: var(--amber-bg);
+  border: 1px solid var(--amber-border);
 }
 
 .project-card-status--archived {
