@@ -34,6 +34,40 @@ He lives in Canberra with two dogs who know that chewing the purple cable near t
 
 ## presentations and publications
 
+### 2026
+
+**The reality of data-centric security and attribute-based access control**  
+*Cyber Daily, 20 May 2026*
+
+An opinion piece on what it takes to apply attribute-based access control across Defence and government, where information moves between systems and organisations.
+
+[Read the article](https://www.cyberdaily.au/security/13622-op-ed-the-reality-of-data-centric-security-and-attribute-based-access-control-abac)
+
+---
+
+**Homelabs and Tech Stacks**  
+*Webinar, 29 January 2026*
+
+A walkthrough of my homelab, the tools I use and the projects I've built along the way.
+
+### 2025
+
+**Cyber Security for Export Control Data**  
+*Export Controls Conference, 13 May 2025*
+
+A talk on translating export control obligations into Australian cyber security controls and working with security teams to put those controls into practice.
+
+[Conference materials](https://exportcontrolsconference.com.au/2025-event-presentations-and-handouts/)
+
+---
+
+**Your Second Act – A practical guide to transitioning to a career in cyber**  
+*Canberra Cyber Hub Cyber Career Symposium, 19 March 2025*
+
+A panel on moving into cyber security from another career.
+
+[Event program (PDF)](https://canberracyberhub.au/hubfs/CCH%20-%202025%20Cyber%20Symposium%20%28Program%29%20%285%29.pdf?hsLang=en-au)
+
 ### 2023
 
 <!-- unsupported block: heading_4 -->
@@ -75,6 +109,13 @@ This presentation covers the last ten years of cyber security history, picking o
 ---
 
 ### 2022
+
+**Automation for the People: One man's journey to automate his homelab**  
+*linux.conf.au, January 2022*
+
+[Conference program](https://linux.conf.au/speaker/profile/25/)
+
+---
 
 <!-- unsupported block: heading_4 -->
 
