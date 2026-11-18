@@ -36,6 +36,15 @@ He lives in Canberra with two dogs who know that chewing the purple cable near t
 
 ### 2026
 
+**Rethinking digital modernisation for essential digital services**  
+*The Mandarin and Leidos Australia, September 2026*
+
+I contributed to this whitepaper on how Australian government agencies can modernise essential digital services while maintaining service continuity and managing cyber risk.
+
+[Read the whitepaper](https://www.themandarin.com.au/319897-whitepaper-rethinking-digital-modernisation-for-essential-digital-services/)
+
+---
+
 **The reality of data-centric security and attribute-based access control**  
 *Cyber Daily, 20 May 2026*
 
@@ -51,6 +60,15 @@ An opinion piece on what it takes to apply attribute-based access control across
 A walkthrough of my homelab, the tools I use and the projects I've built along the way.
 
 ### 2025
+
+**Cyber security for military systems – mission context is critical**  
+*Cyber Daily, 16 May 2025*
+
+An opinion piece on designing cyber security controls around how military systems are used in the field.
+
+[Read the article](https://www.cyberdaily.au/security/12103-op-ed-cyber-security-for-military-systems-mission-context-is-critical-4)
+
+---
 
 **Cyber Security for Export Control Data**  
 *Export Controls Conference, 13 May 2025*
