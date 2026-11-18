@@ -86,6 +86,15 @@ A panel on moving into cyber security from another career.
 
 [Event program (PDF)](https://canberracyberhub.au/hubfs/CCH%20-%202025%20Cyber%20Symposium%20%28Program%29%20%285%29.pdf?hsLang=en-au)
 
+### 2024
+
+**Let's get these tests to the (home)lab(rador)**  
+*CrikeyCon IX, 23 March 2024*
+
+A talk on using a homelab to build practical cyber security skills and demonstrate them to employers.
+
+[Watch the talk](https://www.youtube.com/watch?v=t8EDKCSk-qU)
+
 ### 2023
 
 <!-- unsupported block: heading_4 -->
