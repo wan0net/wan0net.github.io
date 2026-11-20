@@ -37,9 +37,9 @@ He lives in Canberra with two dogs who know that chewing the purple cable near t
 ### 2026
 
 **Rethinking digital modernisation for essential digital services**  
-*The Mandarin and Leidos Australia, September 2026*
+*The Mandarin and Leidos Australia, September 2026 · Contributor*
 
-I contributed to this whitepaper on how Australian government agencies can modernise essential digital services while maintaining service continuity and managing cyber risk.
+The publisher’s description: “How to approach this modernisation challenge and where to start” · “Where AI fits into the modernisation process”
 
 [Read the whitepaper](https://www.themandarin.com.au/319897-whitepaper-rethinking-digital-modernisation-for-essential-digital-services/)
 
@@ -48,7 +48,7 @@ I contributed to this whitepaper on how Australian government agencies can moder
 **The reality of data-centric security and attribute-based access control**  
 *Cyber Daily, 20 May 2026*
 
-An opinion piece on what it takes to apply attribute-based access control across Defence and government, where information moves between systems and organisations.
+“Attribute-based access control (ABAC) is easy to describe at slideware level – the hard part is operationalising it across real data, real roles, and real systems.”
 
 [Read the article](https://www.cyberdaily.au/security/13622-op-ed-the-reality-of-data-centric-security-and-attribute-based-access-control-abac)
 
@@ -57,7 +57,7 @@ An opinion piece on what it takes to apply attribute-based access control across
 **Homelabs and Tech Stacks**  
 *Webinar, 29 January 2026*
 
-A walkthrough of my homelab, the tools I use and the projects I've built along the way.
+Join Iain Dickson for an informal webinar on developing your own homelab, talking about tools, stacks and capabilities. Bring your questions, with a significant amount of time dedicated to questions!
 
 ### 2025
 
@@ -73,7 +73,7 @@ I’m acknowledged for contributing feedback to this guide on building Australia
 **Cyber security for military systems – mission context is critical**  
 *Cyber Daily, 16 May 2025*
 
-An opinion piece on designing cyber security controls around how military systems are used in the field.
+“Ticking a box for compliance and security isn’t enough when it comes to mission-critical systems.”
 
 [Read the article](https://www.cyberdaily.au/security/12103-op-ed-cyber-security-for-military-systems-mission-context-is-critical-4)
 
@@ -82,9 +82,9 @@ An opinion piece on designing cyber security controls around how military system
 **Cyber Security for Export Control Data**  
 *Export Controls Conference, 13 May 2025*
 
-A talk on translating export control obligations into Australian cyber security controls and working with security teams to put those controls into practice.
+From the slides: “Or: How you can work with your incomprehensible cyber security team.”
 
-[Conference materials](https://exportcontrolsconference.com.au/2025-event-presentations-and-handouts/)
+[Presentation slides (PDF)](https://exportcontrolsconference.com.au/wp-content/uploads/2025/05/Cyber-Security-for-Export-Control-Data-Iain-Dickson.pdf) · [Conference materials](https://exportcontrolsconference.com.au/2025-event-presentations-and-handouts/)
 
 ---
 
@@ -100,8 +100,6 @@ From the hosts’ episode announcement: “And we finally got the tea on what Ia
 **Your Second Act – A practical guide to transitioning to a career in cyber**  
 *Canberra Cyber Hub Cyber Career Symposium, 19 March 2025*
 
-A panel on moving into cyber security from another career.
-
 [Event program (PDF)](https://canberracyberhub.au/hubfs/CCH%20-%202025%20Cyber%20Symposium%20%28Program%29%20%285%29.pdf?hsLang=en-au)
 
 ### 2024
@@ -109,9 +107,9 @@ A panel on moving into cyber security from another career.
 **Let's get these tests to the (home)lab(rador)**  
 *CrikeyCon IX, 23 March 2024*
 
-A talk on using a homelab to build practical cyber security skills and demonstrate them to employers.
+From the abstract: “how you can focus and communicate your home project to employers to demonstrate your cybersecurity prowess.”
 
-[Watch the talk](https://www.youtube.com/watch?v=t8EDKCSk-qU)
+[Full conference abstract](https://crikeycon.com/archive/2024/speakers/index.html) · [Watch the talk](https://www.youtube.com/watch?v=t8EDKCSk-qU)
 
 ### 2023
 
@@ -164,7 +162,9 @@ This presentation covers the last ten years of cyber security history, picking o
 **Automation for the People: One man's journey to automate his homelab**  
 *linux.conf.au, January 2022*
 
-[Conference program](https://linux.conf.au/speaker/profile/25/)
+From the original listing: “A lot of buzzwords now appear when you talk about modern system administration, and by extrapolation, running your own homelab.”
+
+[Original abstract](https://linux.conf.au/schedule/presentation/13/) · [Final programme](https://sysadmin.miniconf.org/programme22.html)
 
 ---
 
