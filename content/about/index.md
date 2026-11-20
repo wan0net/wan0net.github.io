@@ -91,9 +91,9 @@ A talk on translating export control obligations into Australian cyber security 
 **Bacon, Linkedin, Tomato, Mayonnaise**  
 *Rejected or Selected, episode 3, May 2025*
 
-In this episode, I shared advice on building a career in cyber security and explained my reservations about professionalising the field. We also talked about using LinkedIn without getting caught up in the performance of it, and how salary expectations can play out in a job interview.
+From the hosts’ episode announcement: “And we finally got the tea on what Iain’s problem is with cyber security professionalisation.” · “Advice on how he stays sane on Linkedin”
 
-[See the hosts’ announcement and clip](https://www.linkedin.com/posts/rejectedselected_reluctantthoughtleadership-rejectedorselected-activity-7326507017039138817-rJew)
+[Read the full announcement and watch the clip](https://www.linkedin.com/posts/rejectedselected_reluctantthoughtleadership-rejectedorselected-activity-7326507017039138817-rJew)
 
 ---
 
@@ -131,9 +131,9 @@ This presentation explores the development of processes for the application of c
 **Cyber Security – the Digital Immune System for Tech Professionals**  
 *Women 4 STEM Grad Girls, September 2023*
 
-This panel looked at how cyber security shows up in everyday tech work, from emerging threats to ethical hacking. We discussed which skills, certifications and hands-on experience can help people get started, and how AI, big data and connected devices are changing the field.
+From the organiser’s panel announcement: “Emerging cyber security threats in an ever-evolving cyber landscape” · “Skills, certifications, and practical experiences that are crucial for success in this field”
 
-[See the organiser’s panel announcement](https://www.linkedin.com/posts/cheryl-yeoh_im-looking-forward-to-hearing-about-how-activity-7112538774915448832-VT5G)
+[Read the full panel description](https://www.linkedin.com/posts/cheryl-yeoh_im-looking-forward-to-hearing-about-how-activity-7112538774915448832-VT5G)
 
 ---
 
