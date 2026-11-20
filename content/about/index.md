@@ -61,6 +61,15 @@ A walkthrough of my homelab, the tools I use and the projects I've built along t
 
 ### 2025
 
+**The Australian Cyber Workforce Playbook**  
+*Executive Cyber Council’s Cyber Workforce Working Group, 2025*
+
+I’m acknowledged for contributing feedback to this guide on building Australia’s cyber workforce.
+
+[Read the playbook (PDF)](https://www.homeaffairs.gov.au/cyber-security-subsite/files/australian-cyber-workforce-playbook.pdf#page=232)
+
+---
+
 **Cyber security for military systems – mission context is critical**  
 *Cyber Daily, 16 May 2025*
 
@@ -76,6 +85,15 @@ An opinion piece on designing cyber security controls around how military system
 A talk on translating export control obligations into Australian cyber security controls and working with security teams to put those controls into practice.
 
 [Conference materials](https://exportcontrolsconference.com.au/2025-event-presentations-and-handouts/)
+
+---
+
+**Bacon, Linkedin, Tomato, Mayonnaise**  
+*Rejected or Selected, episode 3, May 2025*
+
+I joined the hosts to discuss cyber career paths, professionalisation and hiring.
+
+[See the hosts’ announcement and clip](https://www.linkedin.com/posts/rejectedselected_reluctantthoughtleadership-rejectedorselected-activity-7326507017039138817-rJew)
 
 ---
 
@@ -108,6 +126,15 @@ Technology in Australia is evolving and we are seeing a natural convergence of I
 This presentation explores the development of processes for the application of cyber-worthiness principles—the concept of developing a system that can defend against cyber intrusions within a given mission context—and its application within an overall mission assurance context. We discuss the importance of the mounting of a safety case for an autonomous platform, and how lessons learnt from the IT side of the IT/OT divide can be applied and tailored for mission critical systems.
 
 {{< embed-pdf url="Supporting_Mission_Assurance_and_Securing_Autonomous_Systems_through_Cyber-worthiness_Principles.pdf" >}}
+
+---
+
+**Cyber Security – the Digital Immune System for Tech Professionals**  
+*Women 4 STEM Grad Girls, September 2023*
+
+I joined a panel on emerging cyber threats, ethical hacking and the skills that help people get started in cyber security.
+
+[See the organiser’s panel announcement](https://www.linkedin.com/posts/cheryl-yeoh_im-looking-forward-to-hearing-about-how-activity-7112538774915448832-VT5G)
 
 ---
 
